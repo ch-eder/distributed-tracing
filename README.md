@@ -16,7 +16,7 @@ In total, five different Microbenchmarks are used to evaluate the distributed tr
 
 The first microbenchmark comprises a simple function invocation.
 
-<img src="../resources/microbenchmark_1.svg" width="350" title="Microbenchmark 1" alt="Microbenchmark 1">
+<img src="resources/microbenchmark_1.svg" width="350" title="Microbenchmark 1" alt="Microbenchmark 1">
 
 <br>
 
@@ -75,7 +75,7 @@ exports.handler = async function (event) {
 
 The second microbenchmark is embodied by performing an HTTP GET request using the module `axios`.
 
-<img src="../resources/microbenchmark_2.svg" width="350" title="Microbenchmark 2" alt="Microbenchmark 2">
+<img src="resources/microbenchmark_2.svg" width="350" title="Microbenchmark 2" alt="Microbenchmark 2">
 
 <br>
 
@@ -114,7 +114,7 @@ exports.handler = async function (event) {
 
 The third microbenchmark is embodied by performing an HTTP POST request using the module `axios`.
 
-<img src="../resources/microbenchmark_3.svg" width="350" title="Microbenchmark 3" alt="Microbenchmark 3">
+<img src="resources/microbenchmark_3.svg" width="350" title="Microbenchmark 3" alt="Microbenchmark 3">
 
 <br>
 
@@ -160,7 +160,7 @@ exports.handler = async function (event) {
 
 The fourth microbenchmark comprises a DynamoDB read operation.
 
-<img src="../resources/microbenchmark_4.svg" width="350" title="Microbenchmark 4" alt="Microbenchmark 4">
+<img src="resources/microbenchmark_4.svg" width="350" title="Microbenchmark 4" alt="Microbenchmark 4">
 
 <br>
 
@@ -213,7 +213,7 @@ exports.handler = async function (event) {
 
 Finally, the last microbenchmark is a DynamoDB write operation.
 
-<img src="../resources/microbenchmark_5.svg" width="350" title="Microbenchmark 5" alt="Microbenchmark 5">
+<img src="resources/microbenchmark_5.svg" width="350" title="Microbenchmark 5" alt="Microbenchmark 5">
 
 <br>
 
