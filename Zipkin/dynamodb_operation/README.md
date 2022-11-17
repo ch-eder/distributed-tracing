@@ -20,7 +20,7 @@ Additionally, to use the AWS SDK v3, the dynamodb client has to be installed in 
 npm install --save @aws-sdk/client-dynamodb
 ```
 
-> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](../../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-necessary_steps"></a>
 ## Necessary Steps
@@ -95,12 +95,12 @@ In order to display a transparent picture of the trace, relevant information has
 
 <br>
 
-> **Note:** In the master thesis, the scripts were encapsulated in a `zipkin-instrumentation-dynamodb` module and made available using an `index.js` file. The used layer (`zipkin_layer_dynamodb`) can be found [here](../../../lambda_resources). Note that the following example will refer to the usage of this very layer.
+> **Note:** In the master thesis, the scripts were encapsulated in a `zipkin-instrumentation-dynamodb` module and made available using an `index.js` file. The used layer (`zipkin_layer_dynamodb`) can be found [here](../../lambda_resources). Note that the following example will refer to the usage of this very layer.
 
 <a name="anker-usage"></a>
 ## Usage
 
-After linking the necessary layers ([`zipkin_layer_core`](../../../lambda_resources) and [`zipkin_layer_dynamodb`](../../../lambda_resources)), the instrumentation can be performed as listed in the following details sections:
+After linking the necessary layers ([`zipkin_layer_core`](../../lambda_resources) and [`zipkin_layer_dynamodb`](../../lambda_resources)), the instrumentation can be performed as listed in the following details sections:
 
 <details><summary><b>Read Operation</b></summary>
 

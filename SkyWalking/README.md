@@ -103,7 +103,7 @@ In order to be able to use SkyWalking in Lambda, its dependencies have to be add
 npm install --save skywalking-backend-js
 ```
 
-> **Note:** The layer used in the master thesis (`sw_layer`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`sw_layer`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-using_sigNoz"></a>
 ## Tracing Interactions with SkyWalking

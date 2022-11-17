@@ -16,7 +16,7 @@ As with no tracing, the `axios` module has to be installed in a [lambda layer](.
 npm install --save axios
 ```
 
-> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](../../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-necessary_steps"></a>
 ## Necessary Steps
@@ -27,12 +27,12 @@ Since there is a pre-existing instrumented library for capturing `axios` http re
 npm install zipkin-instrumentation-axiosjs --save
 ```
 
-> **Note:** The layer used in the master thesis (`zipkin_layer_axios`) can be found [here](../../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`zipkin_layer_axios`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-usage"></a>
 ## Usage
 
-After linking the necessary layers ([`zipkin_layer_core`](../../../lambda_resources) and [`zipkin_layer_axios`](../../../lambda_resources)), the instrumentation can be performed as listed in the following details sections:
+After linking the necessary layers ([`zipkin_layer_core`](../../lambda_resources) and [`zipkin_layer_axios`](../../lambda_resources)), the instrumentation can be performed as listed in the following details sections:
 
 <details><summary><b>GET Request</b></summary>
 

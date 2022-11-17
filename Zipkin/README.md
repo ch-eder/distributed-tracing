@@ -115,7 +115,7 @@ module.exports = tracerFactory;
 
 Upload the layer and link it to the respective functions.
 
-> **Note:** In the master thesis, the script was encapsulated in a `zipkin-tracing-factory` module and made available using an `index.js` file. The used layer (`zipin_layer_core`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** In the master thesis, the script was encapsulated in a `zipkin-tracing-factory` module and made available using an `index.js` file. The used layer (`zipin_layer_core`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-using_zipkin"></a>
 ## Tracing Interactions with Zipkin

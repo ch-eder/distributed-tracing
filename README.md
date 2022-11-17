@@ -34,7 +34,7 @@ A lambda function can then invoke another lambda function by using the AWS SDK. 
 npm install --save @aws-sdk/client-lambda
 ```
 
-> **Note:** The layer used in the master thesis (`layer_lambda_sdk`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_lambda_sdk`) can be found [here](./lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 **Implementation:**
 
@@ -87,7 +87,7 @@ In order to be able to use `axios`, the module has to be installed in a [lambda 
 npm install --save axios
 ```
 
-> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](./lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 **Implementation:**
 
@@ -126,7 +126,7 @@ In order to be able to use `axios`, the module has to be installed in a [lambda 
 npm install --save axios
 ```
 
-> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_axios`) can be found [here](./lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 **Implementation:**
 
@@ -176,7 +176,7 @@ A lambda function can perform a DynamoDB operation using the AWS SDK. Since the 
 npm install --save @aws-sdk/client-dynamodb
 ```
 
-> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](./lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 **Implementation:**
 
@@ -231,7 +231,7 @@ A lambda function can perform a DynamoDB operation using the AWS SDK. Since the 
 npm install --save @aws-sdk/client-dynamodb
 ```
 
-> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_dynamodb_sdk`) can be found [here](./lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 **Implementation:**
 

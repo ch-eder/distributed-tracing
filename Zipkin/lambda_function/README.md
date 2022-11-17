@@ -22,7 +22,7 @@ Additionally, to use the AWS SDK v3, the lamda client has to be installed in a [
 npm install --save @aws-sdk/client-lambda
 ```
 
-> **Note:** The layer used in the master thesis (`layer_lambda_sdk`) can be found [here](../../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
+> **Note:** The layer used in the master thesis (`layer_lambda_sdk`) can be found [here](../../lambda_resources). Note that all following examples will refer to the usage of this very layer.
 
 <a name="anker-necessary_steps"></a>
 ## Necessary Steps
@@ -116,12 +116,12 @@ Internally, the `lambdaClient.js` adjusts the `params` of the lambda function in
 
 <br>
 
-> **Note:** In the master thesis, the scripts were encapsulated in a `zipkin-instrumentation-lambda` module and made available using an `index.js` file. The used layer (`zipin_layer_lambda`) can be found [here](../../../lambda_resources). Note that the following example will refer to the usage of this very layer.
+> **Note:** In the master thesis, the scripts were encapsulated in a `zipkin-instrumentation-lambda` module and made available using an `index.js` file. The used layer (`zipin_layer_lambda`) can be found [here](../../lambda_resources). Note that the following example will refer to the usage of this very layer.
 
 <a name="anker-usage"></a>
 ## Usage
 
-After linking the necessary layers ([`zipkin_layer_core`](../../../lambda_resources) and [`zipkin_layer_lambda`](../../../lambda_resources)), the instrumentation can by used as follows:
+After linking the necessary layers ([`zipkin_layer_core`](../../lambda_resources) and [`zipkin_layer_lambda`](../../lambda_resources)), the instrumentation can by used as follows:
 
 ```javascript
 const { LambdaClient, InvokeCommand } = require('@aws-sdk/client-lambda');
