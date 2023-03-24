@@ -5,12 +5,13 @@
 **Content:**
 
 - [Microbenchmarks](#anker-microbenchmarks)
-- [Instrumentation using Distributed Tracing](#distributed_tracing_tools)
+- [Instrumentation using Distributed Tracing](#anker-distributed_tracing_tools)
+- [Results](#anker-results)
 
 <a name="anker-microbenchmarks"></a>
 ## Microbenchmarks
 
-In total, five different Microbenchmarks are used to evaluate the distributed tracing tools. The Microbenchmarks are described in the following:
+In total, five different Microbenchmarks were used to evaluate the distributed tracing tools. The Microbenchmarks are described in the following:
 
 <details><summary><b>Lambda Function Invokation</b></summary>
 
@@ -272,3 +273,10 @@ Different Distributed Tracing Tools were used to instrument the Microbenchmarks:
 - [Jaeger](Jaeger/README.md)
 - [SigNoz](SigNoz/README.md)
 - [Apache SkyWalking](SkyWalking/README.md)
+
+<a name="anker-results"></a>
+## Results
+
+Each instrumented microbenchmark was invoked 100 times, measuring the *runtime*, *memory usage*, and *initialization duration*.
+The raw results and the corresponding logs of the function invocations can be found [here](results).
+The experiments were conducted on September 01, 2022.
