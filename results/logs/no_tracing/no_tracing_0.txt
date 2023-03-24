@@ -1,0 +1,417 @@
+Time of invocations: 2022-09-01 21:39:06 - 2022-09-01 21:49:31
+
+Number of cold starts: 100
+
+Init Duration:
+Mean : 154.5398
+Median: 151.17000000000002
+Quantiles: [141.5825, 151.17000000000002, 163.4475]
+Standard dev.: 16.203174148445374
+Variance : 262.5428524848485
+
+Memory:
+Mean: 56.55
+Median: 57.0
+Quantiles: [56.0, 57.0, 57.0]
+Standard dev.: 0.519809599951771
+Variance:0.2702020202020202
+
+START RequestId: 6c2b82d3-2c20-4a43-99b0-7b26732a56f1 Version: $LATEST
+END RequestId: 6c2b82d3-2c20-4a43-99b0-7b26732a56f1
+REPORT RequestId: 6c2b82d3-2c20-4a43-99b0-7b26732a56f1	Duration: 12.80 ms	Billed Duration: 13 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 141.95 ms	
+
+START RequestId: 6bac604f-9ccb-43e9-adbb-6f2ce6a859f9 Version: $LATEST
+END RequestId: 6bac604f-9ccb-43e9-adbb-6f2ce6a859f9
+REPORT RequestId: 6bac604f-9ccb-43e9-adbb-6f2ce6a859f9	Duration: 9.18 ms	Billed Duration: 10 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 145.84 ms	
+
+START RequestId: 953c35f5-d9b5-4ee7-a89d-68b06295a2c4 Version: $LATEST
+END RequestId: 953c35f5-d9b5-4ee7-a89d-68b06295a2c4
+REPORT RequestId: 953c35f5-d9b5-4ee7-a89d-68b06295a2c4	Duration: 2.22 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 162.97 ms	
+
+START RequestId: f11cfe4c-444f-4f63-8788-c75ef4ef1f56 Version: $LATEST
+END RequestId: f11cfe4c-444f-4f63-8788-c75ef4ef1f56
+REPORT RequestId: f11cfe4c-444f-4f63-8788-c75ef4ef1f56	Duration: 7.78 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 138.87 ms	
+
+START RequestId: dcf85636-6f1a-4909-8627-1fab99e51ddc Version: $LATEST
+END RequestId: dcf85636-6f1a-4909-8627-1fab99e51ddc
+REPORT RequestId: dcf85636-6f1a-4909-8627-1fab99e51ddc	Duration: 18.82 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 139.97 ms	
+
+START RequestId: 3e89ddf9-55ea-4c5e-a50f-b451d0cdd720 Version: $LATEST
+END RequestId: 3e89ddf9-55ea-4c5e-a50f-b451d0cdd720
+REPORT RequestId: 3e89ddf9-55ea-4c5e-a50f-b451d0cdd720	Duration: 14.43 ms	Billed Duration: 15 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 156.24 ms	
+
+START RequestId: d05d34ae-4f52-46e1-b02b-6b9870d65de4 Version: $LATEST
+END RequestId: d05d34ae-4f52-46e1-b02b-6b9870d65de4
+REPORT RequestId: d05d34ae-4f52-46e1-b02b-6b9870d65de4	Duration: 2.25 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 149.38 ms	
+
+START RequestId: 8da4215a-09b1-417f-aaa2-ba97d45976b3 Version: $LATEST
+END RequestId: 8da4215a-09b1-417f-aaa2-ba97d45976b3
+REPORT RequestId: 8da4215a-09b1-417f-aaa2-ba97d45976b3	Duration: 5.49 ms	Billed Duration: 6 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 141.36 ms	
+
+START RequestId: 3702e76c-d4e3-47f2-9f8d-d767210335cb Version: $LATEST
+END RequestId: 3702e76c-d4e3-47f2-9f8d-d767210335cb
+REPORT RequestId: 3702e76c-d4e3-47f2-9f8d-d767210335cb	Duration: 6.22 ms	Billed Duration: 7 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 156.67 ms	
+
+START RequestId: f4080c0e-7d98-4151-ab4a-cc6f5d8927d3 Version: $LATEST
+END RequestId: f4080c0e-7d98-4151-ab4a-cc6f5d8927d3
+REPORT RequestId: f4080c0e-7d98-4151-ab4a-cc6f5d8927d3	Duration: 2.22 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 136.37 ms	
+
+START RequestId: 5f9515fe-406c-4a0e-9c7f-8fdb66042272 Version: $LATEST
+END RequestId: 5f9515fe-406c-4a0e-9c7f-8fdb66042272
+REPORT RequestId: 5f9515fe-406c-4a0e-9c7f-8fdb66042272	Duration: 7.99 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 150.82 ms	
+
+START RequestId: 758aa1fe-5e03-428d-bc76-955455958cad Version: $LATEST
+END RequestId: 758aa1fe-5e03-428d-bc76-955455958cad
+REPORT RequestId: 758aa1fe-5e03-428d-bc76-955455958cad	Duration: 13.85 ms	Billed Duration: 14 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 172.94 ms	
+
+START RequestId: fb0f97b1-8833-4a6a-bca4-b8d248fb229e Version: $LATEST
+END RequestId: fb0f97b1-8833-4a6a-bca4-b8d248fb229e
+REPORT RequestId: fb0f97b1-8833-4a6a-bca4-b8d248fb229e	Duration: 2.62 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 151.10 ms	
+
+START RequestId: 40ea2ca2-a808-458a-92db-d3b4ddfab10d Version: $LATEST
+END RequestId: 40ea2ca2-a808-458a-92db-d3b4ddfab10d
+REPORT RequestId: 40ea2ca2-a808-458a-92db-d3b4ddfab10d	Duration: 8.95 ms	Billed Duration: 9 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 141.92 ms	
+
+START RequestId: 7248e85d-9603-471b-9962-6dfc1029eb06 Version: $LATEST
+END RequestId: 7248e85d-9603-471b-9962-6dfc1029eb06
+REPORT RequestId: 7248e85d-9603-471b-9962-6dfc1029eb06	Duration: 2.43 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 172.00 ms	
+
+START RequestId: 5970fd53-4570-42bc-8bc5-2b70561e282a Version: $LATEST
+END RequestId: 5970fd53-4570-42bc-8bc5-2b70561e282a
+REPORT RequestId: 5970fd53-4570-42bc-8bc5-2b70561e282a	Duration: 3.80 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 213.77 ms	
+
+START RequestId: c460b182-2ce8-42f7-9339-85a488831bd2 Version: $LATEST
+END RequestId: c460b182-2ce8-42f7-9339-85a488831bd2
+REPORT RequestId: c460b182-2ce8-42f7-9339-85a488831bd2	Duration: 2.21 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 140.94 ms	
+
+START RequestId: 8ae62633-5fb3-4d46-9593-3971adfc81a4 Version: $LATEST
+END RequestId: 8ae62633-5fb3-4d46-9593-3971adfc81a4
+REPORT RequestId: 8ae62633-5fb3-4d46-9593-3971adfc81a4	Duration: 17.62 ms	Billed Duration: 18 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 149.68 ms	
+
+START RequestId: ac2a7449-06dc-44d0-b508-4c91bd932c26 Version: $LATEST
+END RequestId: ac2a7449-06dc-44d0-b508-4c91bd932c26
+REPORT RequestId: ac2a7449-06dc-44d0-b508-4c91bd932c26	Duration: 11.31 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 162.09 ms	
+
+START RequestId: 38bf3af5-c655-403f-a6e1-0f2d676c178d Version: $LATEST
+END RequestId: 38bf3af5-c655-403f-a6e1-0f2d676c178d
+REPORT RequestId: 38bf3af5-c655-403f-a6e1-0f2d676c178d	Duration: 11.90 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 174.72 ms	
+
+START RequestId: d36ad6d4-deed-4591-b8e1-e168e723145a Version: $LATEST
+END RequestId: d36ad6d4-deed-4591-b8e1-e168e723145a
+REPORT RequestId: d36ad6d4-deed-4591-b8e1-e168e723145a	Duration: 11.53 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 173.34 ms	
+
+START RequestId: 35cf493d-36a2-44a5-ba76-fa5fa808a932 Version: $LATEST
+END RequestId: 35cf493d-36a2-44a5-ba76-fa5fa808a932
+REPORT RequestId: 35cf493d-36a2-44a5-ba76-fa5fa808a932	Duration: 20.53 ms	Billed Duration: 21 ms	Memory Size: 128 MB	Max Memory Used: 58 MB	Init Duration: 166.96 ms	
+
+START RequestId: a4a59c14-4b45-411b-8513-9a9393cf466e Version: $LATEST
+END RequestId: a4a59c14-4b45-411b-8513-9a9393cf466e
+REPORT RequestId: a4a59c14-4b45-411b-8513-9a9393cf466e	Duration: 10.16 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 156.27 ms	
+
+START RequestId: b1989ac9-ee9a-4616-97b4-d37b28d06cd6 Version: $LATEST
+END RequestId: b1989ac9-ee9a-4616-97b4-d37b28d06cd6
+REPORT RequestId: b1989ac9-ee9a-4616-97b4-d37b28d06cd6	Duration: 11.41 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 135.43 ms	
+
+START RequestId: 515b52d4-d6fd-4617-9e9f-0390c11c8735 Version: $LATEST
+END RequestId: 515b52d4-d6fd-4617-9e9f-0390c11c8735
+REPORT RequestId: 515b52d4-d6fd-4617-9e9f-0390c11c8735	Duration: 14.80 ms	Billed Duration: 15 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 139.91 ms	
+
+START RequestId: 7ee5028b-e559-4aad-9a68-881aa0aba9fa Version: $LATEST
+END RequestId: 7ee5028b-e559-4aad-9a68-881aa0aba9fa
+REPORT RequestId: 7ee5028b-e559-4aad-9a68-881aa0aba9fa	Duration: 9.82 ms	Billed Duration: 10 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 152.92 ms	
+
+START RequestId: b3c77f98-f664-421b-96c2-fe51db3a9be4 Version: $LATEST
+END RequestId: b3c77f98-f664-421b-96c2-fe51db3a9be4
+REPORT RequestId: b3c77f98-f664-421b-96c2-fe51db3a9be4	Duration: 11.35 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 135.49 ms	
+
+START RequestId: fb4b0823-5733-4da7-a143-4f412f6ddf69 Version: $LATEST
+END RequestId: fb4b0823-5733-4da7-a143-4f412f6ddf69
+REPORT RequestId: fb4b0823-5733-4da7-a143-4f412f6ddf69	Duration: 15.64 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 178.39 ms	
+
+START RequestId: 78dc0cd6-e9d2-4382-aad8-6b1fd53dcb19 Version: $LATEST
+END RequestId: 78dc0cd6-e9d2-4382-aad8-6b1fd53dcb19
+REPORT RequestId: 78dc0cd6-e9d2-4382-aad8-6b1fd53dcb19	Duration: 16.91 ms	Billed Duration: 17 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 185.20 ms	
+
+START RequestId: 5f345eff-16ef-484f-87a9-8ddacb3051c5 Version: $LATEST
+END RequestId: 5f345eff-16ef-484f-87a9-8ddacb3051c5
+REPORT RequestId: 5f345eff-16ef-484f-87a9-8ddacb3051c5	Duration: 9.78 ms	Billed Duration: 10 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 154.72 ms	
+
+START RequestId: c3e65d86-9463-428a-a3b4-45fc4cb52a83 Version: $LATEST
+END RequestId: c3e65d86-9463-428a-a3b4-45fc4cb52a83
+REPORT RequestId: c3e65d86-9463-428a-a3b4-45fc4cb52a83	Duration: 12.94 ms	Billed Duration: 13 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 141.87 ms	
+
+START RequestId: 168755ce-559d-4de3-bc7c-6c361c3f8c1c Version: $LATEST
+END RequestId: 168755ce-559d-4de3-bc7c-6c361c3f8c1c
+REPORT RequestId: 168755ce-559d-4de3-bc7c-6c361c3f8c1c	Duration: 13.89 ms	Billed Duration: 14 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 136.83 ms	
+
+START RequestId: 7fc2dbc8-5d50-4be3-8f1a-4fb7676f27ae Version: $LATEST
+END RequestId: 7fc2dbc8-5d50-4be3-8f1a-4fb7676f27ae
+REPORT RequestId: 7fc2dbc8-5d50-4be3-8f1a-4fb7676f27ae	Duration: 2.76 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 151.24 ms	
+
+START RequestId: 2f79f21d-2b55-4f5d-9223-70726a90cf60 Version: $LATEST
+END RequestId: 2f79f21d-2b55-4f5d-9223-70726a90cf60
+REPORT RequestId: 2f79f21d-2b55-4f5d-9223-70726a90cf60	Duration: 3.92 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 162.25 ms	
+
+START RequestId: 669f0ee1-c6e3-4483-9829-f78fa6d08f0c Version: $LATEST
+END RequestId: 669f0ee1-c6e3-4483-9829-f78fa6d08f0c
+REPORT RequestId: 669f0ee1-c6e3-4483-9829-f78fa6d08f0c	Duration: 15.32 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 139.26 ms	
+
+START RequestId: 93ca786e-bd8d-45bc-b7cc-a07ff0e772b2 Version: $LATEST
+END RequestId: 93ca786e-bd8d-45bc-b7cc-a07ff0e772b2
+REPORT RequestId: 93ca786e-bd8d-45bc-b7cc-a07ff0e772b2	Duration: 12.65 ms	Billed Duration: 13 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 200.38 ms	
+
+START RequestId: 12fd5724-92ec-4190-816f-15c9cd218af5 Version: $LATEST
+END RequestId: 12fd5724-92ec-4190-816f-15c9cd218af5
+REPORT RequestId: 12fd5724-92ec-4190-816f-15c9cd218af5	Duration: 13.35 ms	Billed Duration: 14 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 149.65 ms	
+
+START RequestId: c89cb706-6f2f-4038-9cf9-2465e103f8b8 Version: $LATEST
+END RequestId: c89cb706-6f2f-4038-9cf9-2465e103f8b8
+REPORT RequestId: c89cb706-6f2f-4038-9cf9-2465e103f8b8	Duration: 2.28 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 153.63 ms	
+
+START RequestId: 7c6d1ec3-e992-49b5-8062-f058902b5ef4 Version: $LATEST
+END RequestId: 7c6d1ec3-e992-49b5-8062-f058902b5ef4
+REPORT RequestId: 7c6d1ec3-e992-49b5-8062-f058902b5ef4	Duration: 18.81 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 160.81 ms	
+
+START RequestId: 1245ff2a-b213-4acd-8062-f62859963a18 Version: $LATEST
+END RequestId: 1245ff2a-b213-4acd-8062-f62859963a18
+REPORT RequestId: 1245ff2a-b213-4acd-8062-f62859963a18	Duration: 15.97 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 158.57 ms	
+
+START RequestId: 06ec517b-af59-4c64-9f8d-43ca0275c06e Version: $LATEST
+END RequestId: 06ec517b-af59-4c64-9f8d-43ca0275c06e
+REPORT RequestId: 06ec517b-af59-4c64-9f8d-43ca0275c06e	Duration: 8.56 ms	Billed Duration: 9 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 150.19 ms	
+
+START RequestId: 24630d44-8041-4561-9132-b08eca7c78f1 Version: $LATEST
+END RequestId: 24630d44-8041-4561-9132-b08eca7c78f1
+REPORT RequestId: 24630d44-8041-4561-9132-b08eca7c78f1	Duration: 2.21 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 140.89 ms	
+
+START RequestId: 3d901a25-c1ee-4b0b-beaa-c632cfbe2c67 Version: $LATEST
+END RequestId: 3d901a25-c1ee-4b0b-beaa-c632cfbe2c67
+REPORT RequestId: 3d901a25-c1ee-4b0b-beaa-c632cfbe2c67	Duration: 10.78 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 156.24 ms	
+
+START RequestId: 26fa0ad6-2dad-4f0f-add8-5c2abaaa8a9e Version: $LATEST
+END RequestId: 26fa0ad6-2dad-4f0f-add8-5c2abaaa8a9e
+REPORT RequestId: 26fa0ad6-2dad-4f0f-add8-5c2abaaa8a9e	Duration: 7.36 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 163.47 ms	
+
+START RequestId: 78212eb4-7988-42d8-afab-7a40cfff8820 Version: $LATEST
+END RequestId: 78212eb4-7988-42d8-afab-7a40cfff8820
+REPORT RequestId: 78212eb4-7988-42d8-afab-7a40cfff8820	Duration: 12.99 ms	Billed Duration: 13 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 134.06 ms	
+
+START RequestId: 041dd25c-32e9-47d7-bd59-5ffa17ae5a6c Version: $LATEST
+END RequestId: 041dd25c-32e9-47d7-bd59-5ffa17ae5a6c
+REPORT RequestId: 041dd25c-32e9-47d7-bd59-5ffa17ae5a6c	Duration: 10.77 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 151.93 ms	
+
+START RequestId: fae162b8-e7ea-4ed6-bde0-be20b939b623 Version: $LATEST
+END RequestId: fae162b8-e7ea-4ed6-bde0-be20b939b623
+REPORT RequestId: fae162b8-e7ea-4ed6-bde0-be20b939b623	Duration: 3.30 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 139.19 ms	
+
+START RequestId: 168edb10-8343-4431-852a-279d72790de4 Version: $LATEST
+END RequestId: 168edb10-8343-4431-852a-279d72790de4
+REPORT RequestId: 168edb10-8343-4431-852a-279d72790de4	Duration: 6.82 ms	Billed Duration: 7 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 167.72 ms	
+
+START RequestId: 93aceff1-d7c3-4a34-bd2d-7df24b1c3189 Version: $LATEST
+END RequestId: 93aceff1-d7c3-4a34-bd2d-7df24b1c3189
+REPORT RequestId: 93aceff1-d7c3-4a34-bd2d-7df24b1c3189	Duration: 16.62 ms	Billed Duration: 17 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 146.10 ms	
+
+START RequestId: 2754efea-01c9-4696-87ad-2174f3cc2f2f Version: $LATEST
+END RequestId: 2754efea-01c9-4696-87ad-2174f3cc2f2f
+REPORT RequestId: 2754efea-01c9-4696-87ad-2174f3cc2f2f	Duration: 6.60 ms	Billed Duration: 7 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 147.75 ms	
+
+START RequestId: bb9f2a37-5040-40f5-8780-f6cf126924cd Version: $LATEST
+END RequestId: bb9f2a37-5040-40f5-8780-f6cf126924cd
+REPORT RequestId: bb9f2a37-5040-40f5-8780-f6cf126924cd	Duration: 19.16 ms	Billed Duration: 20 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 139.62 ms	
+
+START RequestId: d465f978-51de-4d3b-a536-cb9bb411fe6b Version: $LATEST
+END RequestId: d465f978-51de-4d3b-a536-cb9bb411fe6b
+REPORT RequestId: d465f978-51de-4d3b-a536-cb9bb411fe6b	Duration: 2.64 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 148.43 ms	
+
+START RequestId: 6567e683-abe9-440c-b294-574767e71b84 Version: $LATEST
+END RequestId: 6567e683-abe9-440c-b294-574767e71b84
+REPORT RequestId: 6567e683-abe9-440c-b294-574767e71b84	Duration: 10.78 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 167.79 ms	
+
+START RequestId: dfa03a4a-a0e1-4258-9a5f-78b44e42c125 Version: $LATEST
+END RequestId: dfa03a4a-a0e1-4258-9a5f-78b44e42c125
+REPORT RequestId: dfa03a4a-a0e1-4258-9a5f-78b44e42c125	Duration: 17.97 ms	Billed Duration: 18 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 145.02 ms	
+
+START RequestId: 01d626a3-8c40-4a44-8fc7-9ce3522a0020 Version: $LATEST
+END RequestId: 01d626a3-8c40-4a44-8fc7-9ce3522a0020
+REPORT RequestId: 01d626a3-8c40-4a44-8fc7-9ce3522a0020	Duration: 9.87 ms	Billed Duration: 10 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 166.30 ms	
+
+START RequestId: bc7ecda4-e5d6-49c7-86bf-eba3398f9b40 Version: $LATEST
+END RequestId: bc7ecda4-e5d6-49c7-86bf-eba3398f9b40
+REPORT RequestId: bc7ecda4-e5d6-49c7-86bf-eba3398f9b40	Duration: 19.45 ms	Billed Duration: 20 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 139.24 ms	
+
+START RequestId: 9664292a-1b82-4ead-aecf-50e0666a706c Version: $LATEST
+END RequestId: 9664292a-1b82-4ead-aecf-50e0666a706c
+REPORT RequestId: 9664292a-1b82-4ead-aecf-50e0666a706c	Duration: 10.43 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 202.80 ms	
+
+START RequestId: e7a9c961-16b0-4bdd-9767-9a5ec5a43612 Version: $LATEST
+END RequestId: e7a9c961-16b0-4bdd-9767-9a5ec5a43612
+REPORT RequestId: e7a9c961-16b0-4bdd-9767-9a5ec5a43612	Duration: 2.07 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 141.86 ms	
+
+START RequestId: ac823930-9376-4083-8fbe-5c6dd9906626 Version: $LATEST
+END RequestId: ac823930-9376-4083-8fbe-5c6dd9906626
+REPORT RequestId: ac823930-9376-4083-8fbe-5c6dd9906626	Duration: 8.41 ms	Billed Duration: 9 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 167.25 ms	
+
+START RequestId: 381354d2-384d-4b5d-b0ad-c90d2c0bc2c2 Version: $LATEST
+END RequestId: 381354d2-384d-4b5d-b0ad-c90d2c0bc2c2
+REPORT RequestId: 381354d2-384d-4b5d-b0ad-c90d2c0bc2c2	Duration: 16.79 ms	Billed Duration: 17 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 188.33 ms	
+
+START RequestId: a4a8c9c5-0e89-4fd8-a9c2-41cceef350c3 Version: $LATEST
+END RequestId: a4a8c9c5-0e89-4fd8-a9c2-41cceef350c3
+REPORT RequestId: a4a8c9c5-0e89-4fd8-a9c2-41cceef350c3	Duration: 28.75 ms	Billed Duration: 29 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 163.11 ms	
+
+START RequestId: 07cb9c43-a64d-44ec-8f53-7b6d774ec3af Version: $LATEST
+END RequestId: 07cb9c43-a64d-44ec-8f53-7b6d774ec3af
+REPORT RequestId: 07cb9c43-a64d-44ec-8f53-7b6d774ec3af	Duration: 7.95 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 165.05 ms	
+
+START RequestId: 27239693-a9ac-435e-add2-be7cad001964 Version: $LATEST
+END RequestId: 27239693-a9ac-435e-add2-be7cad001964
+REPORT RequestId: 27239693-a9ac-435e-add2-be7cad001964	Duration: 4.26 ms	Billed Duration: 5 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 170.27 ms	
+
+START RequestId: fa91eb82-1612-4fa6-a926-ab9339a78fe8 Version: $LATEST
+END RequestId: fa91eb82-1612-4fa6-a926-ab9339a78fe8
+REPORT RequestId: fa91eb82-1612-4fa6-a926-ab9339a78fe8	Duration: 6.11 ms	Billed Duration: 7 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 172.23 ms	
+
+START RequestId: d051eaf8-fb70-4411-b030-d2e061f453f0 Version: $LATEST
+END RequestId: d051eaf8-fb70-4411-b030-d2e061f453f0
+REPORT RequestId: d051eaf8-fb70-4411-b030-d2e061f453f0	Duration: 18.00 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 156.96 ms	
+
+START RequestId: c8c315aa-4774-4262-a254-a07736c2d4a3 Version: $LATEST
+END RequestId: c8c315aa-4774-4262-a254-a07736c2d4a3
+REPORT RequestId: c8c315aa-4774-4262-a254-a07736c2d4a3	Duration: 17.49 ms	Billed Duration: 18 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 145.29 ms	
+
+START RequestId: b7e42031-829b-4a60-97b7-9ea0bb6c1290 Version: $LATEST
+END RequestId: b7e42031-829b-4a60-97b7-9ea0bb6c1290
+REPORT RequestId: b7e42031-829b-4a60-97b7-9ea0bb6c1290	Duration: 2.52 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 166.43 ms	
+
+START RequestId: 3165e5f2-00bc-4c39-93fa-5cf8314e1ca5 Version: $LATEST
+END RequestId: 3165e5f2-00bc-4c39-93fa-5cf8314e1ca5
+REPORT RequestId: 3165e5f2-00bc-4c39-93fa-5cf8314e1ca5	Duration: 3.62 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 138.82 ms	
+
+START RequestId: f71f7355-9851-46d5-b0a3-ffa34062439b Version: $LATEST
+END RequestId: f71f7355-9851-46d5-b0a3-ffa34062439b
+REPORT RequestId: f71f7355-9851-46d5-b0a3-ffa34062439b	Duration: 3.38 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 152.49 ms	
+
+START RequestId: dc3a1dea-9979-4b67-abbe-9b7e68671893 Version: $LATEST
+END RequestId: dc3a1dea-9979-4b67-abbe-9b7e68671893
+REPORT RequestId: dc3a1dea-9979-4b67-abbe-9b7e68671893	Duration: 13.94 ms	Billed Duration: 14 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 157.33 ms	
+
+START RequestId: 913fc25a-18e9-4a9c-95c9-6a3256d88ac7 Version: $LATEST
+END RequestId: 913fc25a-18e9-4a9c-95c9-6a3256d88ac7
+REPORT RequestId: 913fc25a-18e9-4a9c-95c9-6a3256d88ac7	Duration: 15.39 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 156.15 ms	
+
+START RequestId: 60b2410c-851a-4d17-b905-b31eb9c7381c Version: $LATEST
+END RequestId: 60b2410c-851a-4d17-b905-b31eb9c7381c
+REPORT RequestId: 60b2410c-851a-4d17-b905-b31eb9c7381c	Duration: 15.21 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 143.46 ms	
+
+START RequestId: 436c5b8f-8ad9-4a64-9cf3-cc3566edeaaf Version: $LATEST
+END RequestId: 436c5b8f-8ad9-4a64-9cf3-cc3566edeaaf
+REPORT RequestId: 436c5b8f-8ad9-4a64-9cf3-cc3566edeaaf	Duration: 18.03 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 136.90 ms	
+
+START RequestId: d129fc3d-803c-433b-947f-b9c5ee1e9dc7 Version: $LATEST
+END RequestId: d129fc3d-803c-433b-947f-b9c5ee1e9dc7
+REPORT RequestId: d129fc3d-803c-433b-947f-b9c5ee1e9dc7	Duration: 18.65 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 163.38 ms	
+
+START RequestId: fd01fc78-3d78-4669-bc14-8acb9ec7254c Version: $LATEST
+END RequestId: fd01fc78-3d78-4669-bc14-8acb9ec7254c
+REPORT RequestId: fd01fc78-3d78-4669-bc14-8acb9ec7254c	Duration: 18.71 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 153.29 ms	
+
+START RequestId: 3f3f90a4-a6c9-47cd-820b-16ce9e4d0ad4 Version: $LATEST
+END RequestId: 3f3f90a4-a6c9-47cd-820b-16ce9e4d0ad4
+REPORT RequestId: 3f3f90a4-a6c9-47cd-820b-16ce9e4d0ad4	Duration: 10.14 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 144.31 ms	
+
+START RequestId: 52950bb0-1f26-492e-8403-9568294d501d Version: $LATEST
+END RequestId: 52950bb0-1f26-492e-8403-9568294d501d
+REPORT RequestId: 52950bb0-1f26-492e-8403-9568294d501d	Duration: 12.98 ms	Billed Duration: 13 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 141.50 ms	
+
+START RequestId: c1eb11e4-8866-4cb4-bd3c-3a9cda7bb73d Version: $LATEST
+END RequestId: c1eb11e4-8866-4cb4-bd3c-3a9cda7bb73d
+REPORT RequestId: c1eb11e4-8866-4cb4-bd3c-3a9cda7bb73d	Duration: 15.14 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 191.64 ms	
+
+START RequestId: 5902b2e3-4230-4b23-9e63-b07a9542e80e Version: $LATEST
+END RequestId: 5902b2e3-4230-4b23-9e63-b07a9542e80e
+REPORT RequestId: 5902b2e3-4230-4b23-9e63-b07a9542e80e	Duration: 16.14 ms	Billed Duration: 17 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 153.17 ms	
+
+START RequestId: 7c79a646-dd74-456c-b866-3048349f3d8e Version: $LATEST
+END RequestId: 7c79a646-dd74-456c-b866-3048349f3d8e
+REPORT RequestId: 7c79a646-dd74-456c-b866-3048349f3d8e	Duration: 10.76 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 140.17 ms	
+
+START RequestId: 901b19c4-b8d2-497b-8d55-5535877d9ebd Version: $LATEST
+END RequestId: 901b19c4-b8d2-497b-8d55-5535877d9ebd
+REPORT RequestId: 901b19c4-b8d2-497b-8d55-5535877d9ebd	Duration: 7.47 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 175.11 ms	
+
+START RequestId: 6ed9f353-65d9-4e6f-b682-7f5f737b8bbc Version: $LATEST
+END RequestId: 6ed9f353-65d9-4e6f-b682-7f5f737b8bbc
+REPORT RequestId: 6ed9f353-65d9-4e6f-b682-7f5f737b8bbc	Duration: 9.92 ms	Billed Duration: 10 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 132.83 ms	
+
+START RequestId: 18e47834-7992-456b-880c-f4c32f0508ab Version: $LATEST
+END RequestId: 18e47834-7992-456b-880c-f4c32f0508ab
+REPORT RequestId: 18e47834-7992-456b-880c-f4c32f0508ab	Duration: 7.85 ms	Billed Duration: 8 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 142.79 ms	
+
+START RequestId: e9fe18dd-086b-4bdb-b43d-13f64df571bc Version: $LATEST
+END RequestId: e9fe18dd-086b-4bdb-b43d-13f64df571bc
+REPORT RequestId: e9fe18dd-086b-4bdb-b43d-13f64df571bc	Duration: 19.33 ms	Billed Duration: 20 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 150.82 ms	
+
+START RequestId: f54a7b02-4616-4cbc-8a7f-2d56fcb0b7d9 Version: $LATEST
+END RequestId: f54a7b02-4616-4cbc-8a7f-2d56fcb0b7d9
+REPORT RequestId: f54a7b02-4616-4cbc-8a7f-2d56fcb0b7d9	Duration: 8.35 ms	Billed Duration: 9 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 170.35 ms	
+
+START RequestId: 8cc4cad7-5b8a-46b2-b7a2-3b69b1eeebb9 Version: $LATEST
+END RequestId: 8cc4cad7-5b8a-46b2-b7a2-3b69b1eeebb9
+REPORT RequestId: 8cc4cad7-5b8a-46b2-b7a2-3b69b1eeebb9	Duration: 5.77 ms	Billed Duration: 6 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 157.71 ms	
+
+START RequestId: 344a7d1f-5d13-4ce6-bd07-bc3ec891cbb7 Version: $LATEST
+END RequestId: 344a7d1f-5d13-4ce6-bd07-bc3ec891cbb7
+REPORT RequestId: 344a7d1f-5d13-4ce6-bd07-bc3ec891cbb7	Duration: 4.61 ms	Billed Duration: 5 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 141.83 ms	
+
+START RequestId: 40829918-c906-42fa-9627-218b96c7bffc Version: $LATEST
+END RequestId: 40829918-c906-42fa-9627-218b96c7bffc
+REPORT RequestId: 40829918-c906-42fa-9627-218b96c7bffc	Duration: 2.33 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 149.98 ms	
+
+START RequestId: 2c90fb51-8915-4771-9858-da8714d0d2de Version: $LATEST
+END RequestId: 2c90fb51-8915-4771-9858-da8714d0d2de
+REPORT RequestId: 2c90fb51-8915-4771-9858-da8714d0d2de	Duration: 2.45 ms	Billed Duration: 3 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 153.26 ms	
+
+START RequestId: cc821589-4171-4646-983e-c5a6f69ff3b0 Version: $LATEST
+END RequestId: cc821589-4171-4646-983e-c5a6f69ff3b0
+REPORT RequestId: cc821589-4171-4646-983e-c5a6f69ff3b0	Duration: 10.62 ms	Billed Duration: 11 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 144.03 ms	
+
+START RequestId: 8f36646d-27fa-4d0a-9659-7c197ad1bd6e Version: $LATEST
+END RequestId: 8f36646d-27fa-4d0a-9659-7c197ad1bd6e
+REPORT RequestId: 8f36646d-27fa-4d0a-9659-7c197ad1bd6e	Duration: 5.11 ms	Billed Duration: 6 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 140.51 ms	
+
+START RequestId: 173edfa4-b46a-421a-aa26-4731c7a2105d Version: $LATEST
+END RequestId: 173edfa4-b46a-421a-aa26-4731c7a2105d
+REPORT RequestId: 173edfa4-b46a-421a-aa26-4731c7a2105d	Duration: 14.23 ms	Billed Duration: 15 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 140.50 ms	
+
+START RequestId: 27746ec6-9a72-4503-9daa-c217ab956976 Version: $LATEST
+END RequestId: 27746ec6-9a72-4503-9daa-c217ab956976
+REPORT RequestId: 27746ec6-9a72-4503-9daa-c217ab956976	Duration: 17.32 ms	Billed Duration: 18 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 141.84 ms	
+
+START RequestId: 2bd3060e-0ba7-4373-9123-0d2860bb8bb1 Version: $LATEST
+END RequestId: 2bd3060e-0ba7-4373-9123-0d2860bb8bb1
+REPORT RequestId: 2bd3060e-0ba7-4373-9123-0d2860bb8bb1	Duration: 13.38 ms	Billed Duration: 14 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 137.43 ms	
+
+START RequestId: 26631204-fca8-4f43-bcd6-c1fd1f4945c9 Version: $LATEST
+END RequestId: 26631204-fca8-4f43-bcd6-c1fd1f4945c9
+REPORT RequestId: 26631204-fca8-4f43-bcd6-c1fd1f4945c9	Duration: 18.22 ms	Billed Duration: 19 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 136.59 ms	
+
+START RequestId: 184ac687-cf3d-42d7-a5bd-ac976f9ad04f Version: $LATEST
+END RequestId: 184ac687-cf3d-42d7-a5bd-ac976f9ad04f
+REPORT RequestId: 184ac687-cf3d-42d7-a5bd-ac976f9ad04f	Duration: 4.02 ms	Billed Duration: 5 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 181.95 ms	
+
+START RequestId: 839d5ed2-2024-46a9-a532-cfb53c4c7446 Version: $LATEST
+END RequestId: 839d5ed2-2024-46a9-a532-cfb53c4c7446
+REPORT RequestId: 839d5ed2-2024-46a9-a532-cfb53c4c7446	Duration: 11.28 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 171.20 ms	
+
+START RequestId: 06e75b69-a632-4f38-84ce-903f75dba686 Version: $LATEST
+END RequestId: 06e75b69-a632-4f38-84ce-903f75dba686
+REPORT RequestId: 06e75b69-a632-4f38-84ce-903f75dba686	Duration: 3.01 ms	Billed Duration: 4 ms	Memory Size: 128 MB	Max Memory Used: 56 MB	Init Duration: 147.05 ms	
+
+START RequestId: 27a5e728-61e8-440a-9bb9-2f07d3328699 Version: $LATEST
+END RequestId: 27a5e728-61e8-440a-9bb9-2f07d3328699
+REPORT RequestId: 27a5e728-61e8-440a-9bb9-2f07d3328699	Duration: 15.25 ms	Billed Duration: 16 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 135.66 ms	
+
+START RequestId: e3f7cb9d-daaa-4667-b537-89734d72b038 Version: $LATEST
+END RequestId: e3f7cb9d-daaa-4667-b537-89734d72b038
+REPORT RequestId: e3f7cb9d-daaa-4667-b537-89734d72b038	Duration: 17.38 ms	Billed Duration: 18 ms	Memory Size: 128 MB	Max Memory Used: 57 MB	Init Duration: 153.69 ms	

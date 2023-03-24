@@ -1,0 +1,1777 @@
+Time of invocations: 2022-09-01 15:28:26 - 2022-09-01 15:37:54
+
+Number of cold starts: 10
+
+Duration:
+Mean : 99.6610909090909
+Median: 39.260000000000005
+Quantiles: [32.2625, 39.260000000000005, 54.2]
+Standard dev.: 176.79177605694164
+Variance : 31255.332081367804
+
+Memory:
+Mean: 155.65454545454546
+Median: 156.0
+Quantiles: [155.0, 156.0, 156.0]
+Standard dev.: 0.7832695955945302
+Variance:0.613511259382819
+
+START RequestId: 290dfe8f-8a40-4d05-a72d-37ff736bfd34 Version: $LATEST
+2022/09/01 13:28:35 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038920224,
+	"requestId": "290dfe8f-8a40-4d05-a72d-37ff736bfd34",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b381-4f4bb1db591c1264713843c0;Parent=71be803673110bf5;Sampled=1"
+	}
+}
+2022/09/01 13:28:35 [collector] Waiting for event...
+END RequestId: 290dfe8f-8a40-4d05-a72d-37ff736bfd34
+REPORT RequestId: 290dfe8f-8a40-4d05-a72d-37ff736bfd34	Duration: 516.51 ms	Billed Duration: 517 ms	Memory Size: 256 MB	Max Memory Used: 154 MB	Init Duration: 1593.88 ms	
+XRAY TraceId: 1-6310b381-4f4bb1db591c1264713843c0	SegmentId: 71be803673110bf5	Sampled: true	
+
+START RequestId: 670a21e6-ae1a-48b0-a37d-c75c93a4c7fc Version: $LATEST
+2022/09/01 13:28:38 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038923282,
+	"requestId": "670a21e6-ae1a-48b0-a37d-c75c93a4c7fc",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b386-78eac1d833b1a5b861fc80f0;Parent=37544ca53fde798a;Sampled=1"
+	}
+}
+2022/09/01 13:28:38 [collector] Waiting for event...
+END RequestId: 670a21e6-ae1a-48b0-a37d-c75c93a4c7fc
+REPORT RequestId: 670a21e6-ae1a-48b0-a37d-c75c93a4c7fc	Duration: 219.36 ms	Billed Duration: 220 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b386-78eac1d833b1a5b861fc80f0	SegmentId: 37544ca53fde798a	Sampled: true	
+
+START RequestId: 8d573145-57b0-425e-bc03-5ccca3140cc9 Version: $LATEST
+2022/09/01 13:28:41 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038926003,
+	"requestId": "8d573145-57b0-425e-bc03-5ccca3140cc9",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b388-1c2eb3da6d013c5d58f239ba;Parent=5a56382161ac71f2;Sampled=1"
+	}
+}
+2022/09/01 13:28:41 [collector] Waiting for event...
+END RequestId: 8d573145-57b0-425e-bc03-5ccca3140cc9
+REPORT RequestId: 8d573145-57b0-425e-bc03-5ccca3140cc9	Duration: 40.38 ms	Billed Duration: 41 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b388-1c2eb3da6d013c5d58f239ba	SegmentId: 5a56382161ac71f2	Sampled: true	
+
+START RequestId: 1cdf3572-9b4e-4063-85ac-6ae3cdd63768 Version: $LATEST
+2022/09/01 13:28:43 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038928557,
+	"requestId": "1cdf3572-9b4e-4063-85ac-6ae3cdd63768",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b38b-7c270f3f1c97c12874c8a3a9;Parent=192fbda8617d5f37;Sampled=1"
+	}
+}
+2022/09/01 13:28:43 [collector] Waiting for event...
+END RequestId: 1cdf3572-9b4e-4063-85ac-6ae3cdd63768
+REPORT RequestId: 1cdf3572-9b4e-4063-85ac-6ae3cdd63768	Duration: 24.07 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b38b-7c270f3f1c97c12874c8a3a9	SegmentId: 192fbda8617d5f37	Sampled: true	
+
+START RequestId: d7c8ca09-24ff-46c9-991f-ec728ffcd4f2 Version: $LATEST
+2022/09/01 13:28:46 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038931084,
+	"requestId": "d7c8ca09-24ff-46c9-991f-ec728ffcd4f2",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b38e-584ce4ee73d6c51232287eeb;Parent=335717f36176e198;Sampled=1"
+	}
+}
+2022/09/01 13:28:46 [collector] Waiting for event...
+END RequestId: d7c8ca09-24ff-46c9-991f-ec728ffcd4f2
+REPORT RequestId: d7c8ca09-24ff-46c9-991f-ec728ffcd4f2	Duration: 39.21 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b38e-584ce4ee73d6c51232287eeb	SegmentId: 335717f36176e198	Sampled: true	
+
+START RequestId: 1c0c3165-304c-4dea-a01d-b2509b73a265 Version: $LATEST
+2022/09/01 13:28:48 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038933650,
+	"requestId": "1c0c3165-304c-4dea-a01d-b2509b73a265",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b390-2f08031a3f155d85173b5fdc;Parent=0e3e15721181f0ad;Sampled=1"
+	}
+}
+2022/09/01 13:28:48 [collector] Waiting for event...
+END RequestId: 1c0c3165-304c-4dea-a01d-b2509b73a265
+REPORT RequestId: 1c0c3165-304c-4dea-a01d-b2509b73a265	Duration: 30.75 ms	Billed Duration: 31 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b390-2f08031a3f155d85173b5fdc	SegmentId: 0e3e15721181f0ad	Sampled: true	
+
+START RequestId: 57672769-38b4-41de-92c1-9df35dc8bad8 Version: $LATEST
+2022/09/01 13:28:51 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038936198,
+	"requestId": "57672769-38b4-41de-92c1-9df35dc8bad8",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b393-4216765514557fdf5a2930b1;Parent=47eda4ef41ea93a7;Sampled=1"
+	}
+}
+2022/09/01 13:28:51 [collector] Waiting for event...
+END RequestId: 57672769-38b4-41de-92c1-9df35dc8bad8
+REPORT RequestId: 57672769-38b4-41de-92c1-9df35dc8bad8	Duration: 25.14 ms	Billed Duration: 26 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b393-4216765514557fdf5a2930b1	SegmentId: 47eda4ef41ea93a7	Sampled: true	
+
+START RequestId: 2711e4d8-2d5b-47a2-b2d0-2f241b987c6c Version: $LATEST
+2022/09/01 13:28:53 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038938757,
+	"requestId": "2711e4d8-2d5b-47a2-b2d0-2f241b987c6c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b395-29dc1161153332b12e8acc2d;Parent=5833038c06d3571c;Sampled=1"
+	}
+}
+2022/09/01 13:28:53 [collector] Waiting for event...
+END RequestId: 2711e4d8-2d5b-47a2-b2d0-2f241b987c6c
+REPORT RequestId: 2711e4d8-2d5b-47a2-b2d0-2f241b987c6c	Duration: 24.66 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b395-29dc1161153332b12e8acc2d	SegmentId: 5833038c06d3571c	Sampled: true	
+
+START RequestId: 251986eb-1d8f-4d00-9dd5-f8550ca96d11 Version: $LATEST
+2022/09/01 13:28:56 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038941283,
+	"requestId": "251986eb-1d8f-4d00-9dd5-f8550ca96d11",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b398-34cbfcb96179a2716be2c279;Parent=16327808652efc85;Sampled=1"
+	}
+}
+2022/09/01 13:28:56 [collector] Waiting for event...
+END RequestId: 251986eb-1d8f-4d00-9dd5-f8550ca96d11
+REPORT RequestId: 251986eb-1d8f-4d00-9dd5-f8550ca96d11	Duration: 40.94 ms	Billed Duration: 41 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b398-34cbfcb96179a2716be2c279	SegmentId: 16327808652efc85	Sampled: true	
+
+START RequestId: 3e17fb0c-34b8-4764-83fc-aa7ea31328f0 Version: $LATEST
+2022/09/01 13:28:58 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038943812,
+	"requestId": "3e17fb0c-34b8-4764-83fc-aa7ea31328f0",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b39a-5c142f4e4d40ba5127621eea;Parent=160eb627341b0e8f;Sampled=1"
+	}
+}
+2022/09/01 13:28:58 [collector] Waiting for event...
+END RequestId: 3e17fb0c-34b8-4764-83fc-aa7ea31328f0
+REPORT RequestId: 3e17fb0c-34b8-4764-83fc-aa7ea31328f0	Duration: 68.63 ms	Billed Duration: 69 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b39a-5c142f4e4d40ba5127621eea	SegmentId: 160eb627341b0e8f	Sampled: true	
+
+START RequestId: 9fdbecd9-88eb-4651-8470-4e136355a6d4 Version: $LATEST
+2022/09/01 13:29:01 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038946399,
+	"requestId": "9fdbecd9-88eb-4651-8470-4e136355a6d4",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b39d-2d5354660cd7c6305cc2145e;Parent=0ae61a446ea1f608;Sampled=1"
+	}
+}
+2022/09/01 13:29:01 [collector] Waiting for event...
+END RequestId: 9fdbecd9-88eb-4651-8470-4e136355a6d4
+REPORT RequestId: 9fdbecd9-88eb-4651-8470-4e136355a6d4	Duration: 41.76 ms	Billed Duration: 42 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b39d-2d5354660cd7c6305cc2145e	SegmentId: 0ae61a446ea1f608	Sampled: true	
+
+START RequestId: 6ff989f7-3d9e-44b0-af93-295aba075760 Version: $LATEST
+2022/09/01 13:29:31 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038976343,
+	"requestId": "6ff989f7-3d9e-44b0-af93-295aba075760",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3b9-3a5dfec73c7cae93324e3f70;Parent=6dde95f34127f187;Sampled=1"
+	}
+}
+2022/09/01 13:29:31 [collector] Waiting for event...
+END RequestId: 6ff989f7-3d9e-44b0-af93-295aba075760
+REPORT RequestId: 6ff989f7-3d9e-44b0-af93-295aba075760	Duration: 681.90 ms	Billed Duration: 682 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1593.64 ms	
+XRAY TraceId: 1-6310b3b9-3a5dfec73c7cae93324e3f70	SegmentId: 6dde95f34127f187	Sampled: true	
+
+START RequestId: 80d809aa-6675-4d0d-9303-6a6e4844d5b1 Version: $LATEST
+2022/09/01 13:29:34 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038979532,
+	"requestId": "80d809aa-6675-4d0d-9303-6a6e4844d5b1",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3be-69557b855dd420ef08c853a1;Parent=576b1c5a53ef7851;Sampled=1"
+	}
+}
+2022/09/01 13:29:34 [collector] Waiting for event...
+END RequestId: 80d809aa-6675-4d0d-9303-6a6e4844d5b1
+REPORT RequestId: 80d809aa-6675-4d0d-9303-6a6e4844d5b1	Duration: 33.75 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3be-69557b855dd420ef08c853a1	SegmentId: 576b1c5a53ef7851	Sampled: true	
+
+START RequestId: acd9355e-702b-41f1-801b-c2f4f664ec17 Version: $LATEST
+2022/09/01 13:29:37 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038982081,
+	"requestId": "acd9355e-702b-41f1-801b-c2f4f664ec17",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3c1-06e5068e5440fb770b1a1bff;Parent=23776faf745940e6;Sampled=1"
+	}
+}
+2022/09/01 13:29:37 [collector] Waiting for event...
+END RequestId: acd9355e-702b-41f1-801b-c2f4f664ec17
+REPORT RequestId: acd9355e-702b-41f1-801b-c2f4f664ec17	Duration: 42.23 ms	Billed Duration: 43 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3c1-06e5068e5440fb770b1a1bff	SegmentId: 23776faf745940e6	Sampled: true	
+
+START RequestId: 1919111d-6556-406e-91ca-88d92c910ad4 Version: $LATEST
+2022/09/01 13:29:39 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038984650,
+	"requestId": "1919111d-6556-406e-91ca-88d92c910ad4",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3c3-5b3f8bd13a5110191c630357;Parent=04c80b652f0b1c43;Sampled=1"
+	}
+}
+2022/09/01 13:29:39 [collector] Waiting for event...
+END RequestId: 1919111d-6556-406e-91ca-88d92c910ad4
+REPORT RequestId: 1919111d-6556-406e-91ca-88d92c910ad4	Duration: 33.22 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3c3-5b3f8bd13a5110191c630357	SegmentId: 04c80b652f0b1c43	Sampled: true	
+
+START RequestId: 7206b916-8a16-4a4a-bce2-543714dbb1f6 Version: $LATEST
+2022/09/01 13:29:42 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038987201,
+	"requestId": "7206b916-8a16-4a4a-bce2-543714dbb1f6",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3c6-797c6b2f4a5854072f2343d8;Parent=2fb0638617f87070;Sampled=1"
+	}
+}
+2022/09/01 13:29:42 [collector] Waiting for event...
+END RequestId: 7206b916-8a16-4a4a-bce2-543714dbb1f6
+REPORT RequestId: 7206b916-8a16-4a4a-bce2-543714dbb1f6	Duration: 42.33 ms	Billed Duration: 43 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b3c6-797c6b2f4a5854072f2343d8	SegmentId: 2fb0638617f87070	Sampled: true	
+
+START RequestId: 09ca4ac5-a6b1-45a4-9f46-5148a635f863 Version: $LATEST
+2022/09/01 13:29:44 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038989751,
+	"requestId": "09ca4ac5-a6b1-45a4-9f46-5148a635f863",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3c8-6ee1104b180d969c592a35c6;Parent=121321ee6c2fc610;Sampled=1"
+	}
+}
+2022/09/01 13:29:44 [collector] Waiting for event...
+END RequestId: 09ca4ac5-a6b1-45a4-9f46-5148a635f863
+REPORT RequestId: 09ca4ac5-a6b1-45a4-9f46-5148a635f863	Duration: 35.52 ms	Billed Duration: 36 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b3c8-6ee1104b180d969c592a35c6	SegmentId: 121321ee6c2fc610	Sampled: true	
+
+START RequestId: 8e5503c0-de26-4a22-9a9b-0bc8f6940087 Version: $LATEST
+2022/09/01 13:29:47 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038992286,
+	"requestId": "8e5503c0-de26-4a22-9a9b-0bc8f6940087",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3cb-626d893a3ffd2b4156cf5f94;Parent=5ee2162b5a525636;Sampled=1"
+	}
+}
+2022/09/01 13:29:47 [collector] Waiting for event...
+END RequestId: 8e5503c0-de26-4a22-9a9b-0bc8f6940087
+REPORT RequestId: 8e5503c0-de26-4a22-9a9b-0bc8f6940087	Duration: 39.45 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b3cb-626d893a3ffd2b4156cf5f94	SegmentId: 5ee2162b5a525636	Sampled: true	
+
+START RequestId: cbd89f74-cbe8-48c1-abda-3937497b5518 Version: $LATEST
+2022/09/01 13:29:49 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038994849,
+	"requestId": "cbd89f74-cbe8-48c1-abda-3937497b5518",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3cd-63f6a852768786bf65889bb8;Parent=126baf37247ed9da;Sampled=1"
+	}
+}
+2022/09/01 13:29:49 [collector] Waiting for event...
+END RequestId: cbd89f74-cbe8-48c1-abda-3937497b5518
+REPORT RequestId: cbd89f74-cbe8-48c1-abda-3937497b5518	Duration: 34.50 ms	Billed Duration: 35 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b3cd-63f6a852768786bf65889bb8	SegmentId: 126baf37247ed9da	Sampled: true	
+
+START RequestId: 73efd79b-5832-4b46-ab87-ef7ea3387d48 Version: $LATEST
+2022/09/01 13:29:52 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038997411,
+	"requestId": "73efd79b-5832-4b46-ab87-ef7ea3387d48",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3d0-4c33e2260956e2632102cc5c;Parent=5af7b02a61937b25;Sampled=1"
+	}
+}
+2022/09/01 13:29:52 [collector] Waiting for event...
+END RequestId: 73efd79b-5832-4b46-ab87-ef7ea3387d48
+REPORT RequestId: 73efd79b-5832-4b46-ab87-ef7ea3387d48	Duration: 52.43 ms	Billed Duration: 53 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b3d0-4c33e2260956e2632102cc5c	SegmentId: 5af7b02a61937b25	Sampled: true	
+
+START RequestId: 8fba8a8f-ad5c-45a6-9196-709f1dbaf52b Version: $LATEST
+2022/09/01 13:29:54 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662038999962,
+	"requestId": "8fba8a8f-ad5c-45a6-9196-709f1dbaf52b",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3d2-02c5294370b12197409d4c9b;Parent=506567065e5e3d17;Sampled=1"
+	}
+}
+2022/09/01 13:29:54 [collector] Waiting for event...
+END RequestId: 8fba8a8f-ad5c-45a6-9196-709f1dbaf52b
+REPORT RequestId: 8fba8a8f-ad5c-45a6-9196-709f1dbaf52b	Duration: 81.78 ms	Billed Duration: 82 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b3d2-02c5294370b12197409d4c9b	SegmentId: 506567065e5e3d17	Sampled: true	
+
+START RequestId: a911eb7d-4085-4437-bcea-3386d5832055 Version: $LATEST
+2022/09/01 13:29:57 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039002551,
+	"requestId": "a911eb7d-4085-4437-bcea-3386d5832055",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3d5-400e952a537f1d222e0bc665;Parent=730cf57724d9307b;Sampled=1"
+	}
+}
+2022/09/01 13:29:57 [collector] Waiting for event...
+END RequestId: a911eb7d-4085-4437-bcea-3386d5832055
+REPORT RequestId: a911eb7d-4085-4437-bcea-3386d5832055	Duration: 32.48 ms	Billed Duration: 33 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b3d5-400e952a537f1d222e0bc665	SegmentId: 730cf57724d9307b	Sampled: true	
+
+START RequestId: 27ccb41b-cb2d-4b2a-a2c7-83f403be23b4 Version: $LATEST
+2022/09/01 13:30:27 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039032483,
+	"requestId": "27ccb41b-cb2d-4b2a-a2c7-83f403be23b4",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3f1-40f12cbe307639c44829dbdd;Parent=252db5a80617f2b0;Sampled=1"
+	}
+}
+2022/09/01 13:30:27 [collector] Waiting for event...
+END RequestId: 27ccb41b-cb2d-4b2a-a2c7-83f403be23b4
+REPORT RequestId: 27ccb41b-cb2d-4b2a-a2c7-83f403be23b4	Duration: 712.28 ms	Billed Duration: 713 ms	Memory Size: 256 MB	Max Memory Used: 154 MB	Init Duration: 1589.42 ms	
+XRAY TraceId: 1-6310b3f1-40f12cbe307639c44829dbdd	SegmentId: 252db5a80617f2b0	Sampled: true	
+
+START RequestId: d25f32ce-b9fa-488e-95aa-643ccfaa7492 Version: $LATEST
+2022/09/01 13:30:30 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039035718,
+	"requestId": "d25f32ce-b9fa-488e-95aa-643ccfaa7492",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3f6-3afe218b2f1ee7fb027cab2f;Parent=2123e15d3fee45a1;Sampled=1"
+	}
+}
+2022/09/01 13:30:30 [collector] Waiting for event...
+END RequestId: d25f32ce-b9fa-488e-95aa-643ccfaa7492
+REPORT RequestId: d25f32ce-b9fa-488e-95aa-643ccfaa7492	Duration: 57.71 ms	Billed Duration: 58 ms	Memory Size: 256 MB	Max Memory Used: 154 MB	
+XRAY TraceId: 1-6310b3f6-3afe218b2f1ee7fb027cab2f	SegmentId: 2123e15d3fee45a1	Sampled: true	
+
+START RequestId: 15e189c7-0b19-4932-bd98-58b622a20187 Version: $LATEST
+2022/09/01 13:30:33 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039038288,
+	"requestId": "15e189c7-0b19-4932-bd98-58b622a20187",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3f9-5d74af551ad406682abaaeab;Parent=3974565352eca74f;Sampled=1"
+	}
+}
+2022/09/01 13:30:33 [collector] Waiting for event...
+END RequestId: 15e189c7-0b19-4932-bd98-58b622a20187
+REPORT RequestId: 15e189c7-0b19-4932-bd98-58b622a20187	Duration: 47.90 ms	Billed Duration: 48 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3f9-5d74af551ad406682abaaeab	SegmentId: 3974565352eca74f	Sampled: true	
+
+START RequestId: 0a15411e-27f0-4b76-9220-bd7ef2a1cfba Version: $LATEST
+2022/09/01 13:30:35 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039040849,
+	"requestId": "0a15411e-27f0-4b76-9220-bd7ef2a1cfba",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3fb-48aea0e070a2e53679182d81;Parent=00258f7a491250da;Sampled=1"
+	}
+}
+2022/09/01 13:30:35 [collector] Waiting for event...
+END RequestId: 0a15411e-27f0-4b76-9220-bd7ef2a1cfba
+REPORT RequestId: 0a15411e-27f0-4b76-9220-bd7ef2a1cfba	Duration: 26.84 ms	Billed Duration: 27 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3fb-48aea0e070a2e53679182d81	SegmentId: 00258f7a491250da	Sampled: true	
+
+START RequestId: 21fca2e6-be52-45ac-82f8-458693e8414d Version: $LATEST
+2022/09/01 13:30:38 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039043403,
+	"requestId": "21fca2e6-be52-45ac-82f8-458693e8414d",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b3fe-583914bd65fde63c69597890;Parent=02805125654e1ef5;Sampled=1"
+	}
+}
+2022/09/01 13:30:38 [collector] Waiting for event...
+END RequestId: 21fca2e6-be52-45ac-82f8-458693e8414d
+REPORT RequestId: 21fca2e6-be52-45ac-82f8-458693e8414d	Duration: 36.27 ms	Billed Duration: 37 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b3fe-583914bd65fde63c69597890	SegmentId: 02805125654e1ef5	Sampled: true	
+
+START RequestId: 867f58c9-49f2-4e4d-9e7a-70601d367ac3 Version: $LATEST
+2022/09/01 13:30:40 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039045934,
+	"requestId": "867f58c9-49f2-4e4d-9e7a-70601d367ac3",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b400-15200d28276d9579070bf3ca;Parent=30a7f17e1e9a18c3;Sampled=1"
+	}
+}
+2022/09/01 13:30:40 [collector] Waiting for event...
+END RequestId: 867f58c9-49f2-4e4d-9e7a-70601d367ac3
+REPORT RequestId: 867f58c9-49f2-4e4d-9e7a-70601d367ac3	Duration: 42.00 ms	Billed Duration: 42 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b400-15200d28276d9579070bf3ca	SegmentId: 30a7f17e1e9a18c3	Sampled: true	
+
+START RequestId: c9476011-0795-4fd7-8fcf-06c6ca24561f Version: $LATEST
+2022/09/01 13:30:43 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039048503,
+	"requestId": "c9476011-0795-4fd7-8fcf-06c6ca24561f",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b403-27bbcc54151a65847e60f51d;Parent=4e9d15ab5df698e5;Sampled=1"
+	}
+}
+2022/09/01 13:30:43 [collector] Waiting for event...
+END RequestId: c9476011-0795-4fd7-8fcf-06c6ca24561f
+REPORT RequestId: c9476011-0795-4fd7-8fcf-06c6ca24561f	Duration: 33.65 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b403-27bbcc54151a65847e60f51d	SegmentId: 4e9d15ab5df698e5	Sampled: true	
+
+START RequestId: 1e31f9d8-5d94-47dd-84ed-5c3582edffa3 Version: $LATEST
+2022/09/01 13:30:46 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039051029,
+	"requestId": "1e31f9d8-5d94-47dd-84ed-5c3582edffa3",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b406-06c14a5e015e201d724100bb;Parent=50c28bf50b1cf69f;Sampled=1"
+	}
+}
+2022/09/01 13:30:46 [collector] Waiting for event...
+END RequestId: 1e31f9d8-5d94-47dd-84ed-5c3582edffa3
+REPORT RequestId: 1e31f9d8-5d94-47dd-84ed-5c3582edffa3	Duration: 27.52 ms	Billed Duration: 28 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b406-06c14a5e015e201d724100bb	SegmentId: 50c28bf50b1cf69f	Sampled: true	
+
+START RequestId: 4b6095ad-5406-48f6-af08-07e57976271b Version: $LATEST
+2022/09/01 13:30:48 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039053565,
+	"requestId": "4b6095ad-5406-48f6-af08-07e57976271b",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b408-709d73c53810b84a67b61ee6;Parent=054ad04f4360375b;Sampled=1"
+	}
+}
+2022/09/01 13:30:48 [collector] Waiting for event...
+END RequestId: 4b6095ad-5406-48f6-af08-07e57976271b
+REPORT RequestId: 4b6095ad-5406-48f6-af08-07e57976271b	Duration: 34.02 ms	Billed Duration: 35 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b408-709d73c53810b84a67b61ee6	SegmentId: 054ad04f4360375b	Sampled: true	
+
+START RequestId: 4c0fc88d-8a0c-4c7f-a124-ae60a5c6fa44 Version: $LATEST
+2022/09/01 13:30:51 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039056114,
+	"requestId": "4c0fc88d-8a0c-4c7f-a124-ae60a5c6fa44",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b40b-208d88740c396c0f39a4b1c1;Parent=0dfe37d0666983d5;Sampled=1"
+	}
+}
+2022/09/01 13:30:51 [collector] Waiting for event...
+END RequestId: 4c0fc88d-8a0c-4c7f-a124-ae60a5c6fa44
+REPORT RequestId: 4c0fc88d-8a0c-4c7f-a124-ae60a5c6fa44	Duration: 81.68 ms	Billed Duration: 82 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b40b-208d88740c396c0f39a4b1c1	SegmentId: 0dfe37d0666983d5	Sampled: true	
+
+START RequestId: f81daaaa-26b7-4d41-887e-6a7f22121a7c Version: $LATEST
+2022/09/01 13:30:53 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039058719,
+	"requestId": "f81daaaa-26b7-4d41-887e-6a7f22121a7c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b40d-7ba158391c7815d24ec7b713;Parent=5074f43e0b8e5b87;Sampled=1"
+	}
+}
+2022/09/01 13:30:53 [collector] Waiting for event...
+END RequestId: f81daaaa-26b7-4d41-887e-6a7f22121a7c
+REPORT RequestId: f81daaaa-26b7-4d41-887e-6a7f22121a7c	Duration: 37.24 ms	Billed Duration: 38 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b40d-7ba158391c7815d24ec7b713	SegmentId: 5074f43e0b8e5b87	Sampled: true	
+
+START RequestId: a391a6ff-38c9-4bf6-aed8-2d0340131097 Version: $LATEST
+2022/09/01 13:31:23 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039088893,
+	"requestId": "a391a6ff-38c9-4bf6-aed8-2d0340131097",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b429-7c072b35157ada2025d86e80;Parent=0a7d007a0743815a;Sampled=1"
+	}
+}
+2022/09/01 13:31:23 [collector] Waiting for event...
+END RequestId: a391a6ff-38c9-4bf6-aed8-2d0340131097
+REPORT RequestId: a391a6ff-38c9-4bf6-aed8-2d0340131097	Duration: 660.82 ms	Billed Duration: 661 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1740.62 ms	
+XRAY TraceId: 1-6310b429-7c072b35157ada2025d86e80	SegmentId: 0a7d007a0743815a	Sampled: true	
+
+START RequestId: 4ceaffe8-d446-496d-b639-26662b9e00e2 Version: $LATEST
+2022/09/01 13:31:27 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039092088,
+	"requestId": "4ceaffe8-d446-496d-b639-26662b9e00e2",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b42f-19d1213b383ea7cc692e9164;Parent=63b8a9cb156e5d53;Sampled=1"
+	}
+}
+2022/09/01 13:31:27 [collector] Waiting for event...
+END RequestId: 4ceaffe8-d446-496d-b639-26662b9e00e2
+REPORT RequestId: 4ceaffe8-d446-496d-b639-26662b9e00e2	Duration: 27.38 ms	Billed Duration: 28 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b42f-19d1213b383ea7cc692e9164	SegmentId: 63b8a9cb156e5d53	Sampled: true	
+
+START RequestId: 82215cef-e5b1-4ff3-b8e0-101bd0b54861 Version: $LATEST
+2022/09/01 13:31:29 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039094622,
+	"requestId": "82215cef-e5b1-4ff3-b8e0-101bd0b54861",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b431-310d55e44fc6eaee79d6c017;Parent=6e47ce655255e80a;Sampled=1"
+	}
+}
+2022/09/01 13:31:29 [collector] Waiting for event...
+END RequestId: 82215cef-e5b1-4ff3-b8e0-101bd0b54861
+REPORT RequestId: 82215cef-e5b1-4ff3-b8e0-101bd0b54861	Duration: 34.18 ms	Billed Duration: 35 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b431-310d55e44fc6eaee79d6c017	SegmentId: 6e47ce655255e80a	Sampled: true	
+
+START RequestId: c600c680-77e0-48ca-a89b-a99e72a0ff1c Version: $LATEST
+2022/09/01 13:31:32 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039097151,
+	"requestId": "c600c680-77e0-48ca-a89b-a99e72a0ff1c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b434-635944d2628c5f0c5e3a90e2;Parent=5fc4111b2b0e2882;Sampled=1"
+	}
+}
+2022/09/01 13:31:32 [collector] Waiting for event...
+END RequestId: c600c680-77e0-48ca-a89b-a99e72a0ff1c
+REPORT RequestId: c600c680-77e0-48ca-a89b-a99e72a0ff1c	Duration: 43.01 ms	Billed Duration: 44 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b434-635944d2628c5f0c5e3a90e2	SegmentId: 5fc4111b2b0e2882	Sampled: true	
+
+START RequestId: 0835b073-b136-4377-865f-6919f9dedb03 Version: $LATEST
+2022/09/01 13:31:34 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039099695,
+	"requestId": "0835b073-b136-4377-865f-6919f9dedb03",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b436-44249543292e33a33122d3d5;Parent=31c53deb525f56f4;Sampled=1"
+	}
+}
+2022/09/01 13:31:34 [collector] Waiting for event...
+END RequestId: 0835b073-b136-4377-865f-6919f9dedb03
+REPORT RequestId: 0835b073-b136-4377-865f-6919f9dedb03	Duration: 40.90 ms	Billed Duration: 41 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b436-44249543292e33a33122d3d5	SegmentId: 31c53deb525f56f4	Sampled: true	
+
+START RequestId: 17d31636-6f1c-4c1d-b255-e6a9a297992d Version: $LATEST
+2022/09/01 13:31:37 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039102276,
+	"requestId": "17d31636-6f1c-4c1d-b255-e6a9a297992d",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b439-7f29bbff0d263ecf439b3d8e;Parent=45bfa7f65797abb7;Sampled=1"
+	}
+}
+2022/09/01 13:31:37 [collector] Waiting for event...
+END RequestId: 17d31636-6f1c-4c1d-b255-e6a9a297992d
+REPORT RequestId: 17d31636-6f1c-4c1d-b255-e6a9a297992d	Duration: 39.50 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b439-7f29bbff0d263ecf439b3d8e	SegmentId: 45bfa7f65797abb7	Sampled: true	
+
+START RequestId: c229b02d-9563-4852-9e79-ce41b59ddae0 Version: $LATEST
+2022/09/01 13:31:39 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039104836,
+	"requestId": "c229b02d-9563-4852-9e79-ce41b59ddae0",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b43b-0fdac9822d582fb4637d7c4d;Parent=7889ca6e5d73839c;Sampled=1"
+	}
+}
+2022/09/01 13:31:39 [collector] Waiting for event...
+END RequestId: c229b02d-9563-4852-9e79-ce41b59ddae0
+REPORT RequestId: c229b02d-9563-4852-9e79-ce41b59ddae0	Duration: 39.42 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b43b-0fdac9822d582fb4637d7c4d	SegmentId: 7889ca6e5d73839c	Sampled: true	
+
+START RequestId: f0c43d72-3486-4501-85b4-0aaea7bda841 Version: $LATEST
+2022/09/01 13:31:42 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039107383,
+	"requestId": "f0c43d72-3486-4501-85b4-0aaea7bda841",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b43e-46a9bf7b5a0300fe37b1323f;Parent=1c2188e60228110e;Sampled=1"
+	}
+}
+2022/09/01 13:31:42 [collector] Waiting for event...
+END RequestId: f0c43d72-3486-4501-85b4-0aaea7bda841
+REPORT RequestId: f0c43d72-3486-4501-85b4-0aaea7bda841	Duration: 33.95 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b43e-46a9bf7b5a0300fe37b1323f	SegmentId: 1c2188e60228110e	Sampled: true	
+
+START RequestId: ea5d29ab-dad8-4780-b0c9-06b98d24e085 Version: $LATEST
+2022/09/01 13:31:44 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039109910,
+	"requestId": "ea5d29ab-dad8-4780-b0c9-06b98d24e085",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b440-7368c70854c52d1c51896ef2;Parent=68ee305a5134a1bf;Sampled=1"
+	}
+}
+2022/09/01 13:31:44 [collector] Waiting for event...
+END RequestId: ea5d29ab-dad8-4780-b0c9-06b98d24e085
+REPORT RequestId: ea5d29ab-dad8-4780-b0c9-06b98d24e085	Duration: 43.84 ms	Billed Duration: 44 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b440-7368c70854c52d1c51896ef2	SegmentId: 68ee305a5134a1bf	Sampled: true	
+
+START RequestId: c63be7f1-275c-465c-8501-4161d10beb7a Version: $LATEST
+2022/09/01 13:31:47 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039112477,
+	"requestId": "c63be7f1-275c-465c-8501-4161d10beb7a",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b443-7113bb1b49d9126c6ca3e86c;Parent=7720c6cb0be36b41;Sampled=1"
+	}
+}
+2022/09/01 13:31:47 [collector] Waiting for event...
+END RequestId: c63be7f1-275c-465c-8501-4161d10beb7a
+REPORT RequestId: c63be7f1-275c-465c-8501-4161d10beb7a	Duration: 96.78 ms	Billed Duration: 97 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b443-7113bb1b49d9126c6ca3e86c	SegmentId: 7720c6cb0be36b41	Sampled: true	
+
+START RequestId: ae52fe59-3fe2-41a5-a4b9-4a259770d9d0 Version: $LATEST
+2022/09/01 13:31:50 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039115063,
+	"requestId": "ae52fe59-3fe2-41a5-a4b9-4a259770d9d0",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b446-7978b6341486bb324f20a17a;Parent=74c6b0c8645eea86;Sampled=1"
+	}
+}
+2022/09/01 13:31:50 [collector] Waiting for event...
+END RequestId: ae52fe59-3fe2-41a5-a4b9-4a259770d9d0
+REPORT RequestId: ae52fe59-3fe2-41a5-a4b9-4a259770d9d0	Duration: 30.76 ms	Billed Duration: 31 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b446-7978b6341486bb324f20a17a	SegmentId: 74c6b0c8645eea86	Sampled: true	
+
+START RequestId: 71a1fdc7-2e9d-4428-9d87-99806728d3bc Version: $LATEST
+2022/09/01 13:32:20 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039145298,
+	"requestId": "71a1fdc7-2e9d-4428-9d87-99806728d3bc",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b462-38ed275563b5c726585fd2a2;Parent=57829f9645e2b03a;Sampled=1"
+	}
+}
+2022/09/01 13:32:20 [collector] Waiting for event...
+END RequestId: 71a1fdc7-2e9d-4428-9d87-99806728d3bc
+REPORT RequestId: 71a1fdc7-2e9d-4428-9d87-99806728d3bc	Duration: 467.55 ms	Billed Duration: 468 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	Init Duration: 1788.63 ms	
+XRAY TraceId: 1-6310b462-38ed275563b5c726585fd2a2	SegmentId: 57829f9645e2b03a	Sampled: true	
+
+START RequestId: 51eed508-8a86-4889-857d-30b67a07b5ae Version: $LATEST
+2022/09/01 13:32:23 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039148267,
+	"requestId": "51eed508-8a86-4889-857d-30b67a07b5ae",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b467-1abcaa024771b44a7596b630;Parent=13b162d957e61a76;Sampled=1"
+	}
+}
+2022/09/01 13:32:23 [collector] Waiting for event...
+END RequestId: 51eed508-8a86-4889-857d-30b67a07b5ae
+REPORT RequestId: 51eed508-8a86-4889-857d-30b67a07b5ae	Duration: 56.12 ms	Billed Duration: 57 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b467-1abcaa024771b44a7596b630	SegmentId: 13b162d957e61a76	Sampled: true	
+
+START RequestId: 6863a19c-5c0c-4cd3-b3f3-7b9bb8a298e7 Version: $LATEST
+2022/09/01 13:32:25 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039150792,
+	"requestId": "6863a19c-5c0c-4cd3-b3f3-7b9bb8a298e7",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b469-4b24cf72105172cb1eb0b0e9;Parent=57c884ba28172a2b;Sampled=1"
+	}
+}
+2022/09/01 13:32:25 [collector] Waiting for event...
+END RequestId: 6863a19c-5c0c-4cd3-b3f3-7b9bb8a298e7
+REPORT RequestId: 6863a19c-5c0c-4cd3-b3f3-7b9bb8a298e7	Duration: 110.28 ms	Billed Duration: 111 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b469-4b24cf72105172cb1eb0b0e9	SegmentId: 57c884ba28172a2b	Sampled: true	
+
+START RequestId: ccdb0da1-dfef-4572-aac8-41463e038296 Version: $LATEST
+2022/09/01 13:32:28 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039153397,
+	"requestId": "ccdb0da1-dfef-4572-aac8-41463e038296",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b46c-2e20cf7d7646f66a321864c2;Parent=158a09eb1bc505c6;Sampled=1"
+	}
+}
+2022/09/01 13:32:28 [collector] Waiting for event...
+END RequestId: ccdb0da1-dfef-4572-aac8-41463e038296
+REPORT RequestId: ccdb0da1-dfef-4572-aac8-41463e038296	Duration: 227.91 ms	Billed Duration: 228 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b46c-2e20cf7d7646f66a321864c2	SegmentId: 158a09eb1bc505c6	Sampled: true	
+
+START RequestId: b6b9b911-b89d-4366-8d0a-ad6c73f3c0ab Version: $LATEST
+2022/09/01 13:32:31 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039156132,
+	"requestId": "b6b9b911-b89d-4366-8d0a-ad6c73f3c0ab",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b46f-09ea053726f521095950380d;Parent=7f6c995f79a5091a;Sampled=1"
+	}
+}
+2022/09/01 13:32:31 [collector] Waiting for event...
+END RequestId: b6b9b911-b89d-4366-8d0a-ad6c73f3c0ab
+REPORT RequestId: b6b9b911-b89d-4366-8d0a-ad6c73f3c0ab	Duration: 33.49 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b46f-09ea053726f521095950380d	SegmentId: 7f6c995f79a5091a	Sampled: true	
+
+START RequestId: 51433437-388a-490e-96a8-75bfc394b1e0 Version: $LATEST
+2022/09/01 13:32:33 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039158656,
+	"requestId": "51433437-388a-490e-96a8-75bfc394b1e0",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b471-1779363f6001b7e02e03d96e;Parent=1a58e3162167eba7;Sampled=1"
+	}
+}
+2022/09/01 13:32:33 [collector] Waiting for event...
+END RequestId: 51433437-388a-490e-96a8-75bfc394b1e0
+REPORT RequestId: 51433437-388a-490e-96a8-75bfc394b1e0	Duration: 29.61 ms	Billed Duration: 30 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b471-1779363f6001b7e02e03d96e	SegmentId: 1a58e3162167eba7	Sampled: true	
+
+START RequestId: f2fb1fe4-cee9-4dfc-9bf3-15dc55ccca44 Version: $LATEST
+2022/09/01 13:32:36 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039161201,
+	"requestId": "f2fb1fe4-cee9-4dfc-9bf3-15dc55ccca44",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b474-10fea22b7666a9221e6a1ce6;Parent=2595e2175fb11f82;Sampled=1"
+	}
+}
+2022/09/01 13:32:36 [collector] Waiting for event...
+END RequestId: f2fb1fe4-cee9-4dfc-9bf3-15dc55ccca44
+REPORT RequestId: f2fb1fe4-cee9-4dfc-9bf3-15dc55ccca44	Duration: 41.68 ms	Billed Duration: 42 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b474-10fea22b7666a9221e6a1ce6	SegmentId: 2595e2175fb11f82	Sampled: true	
+
+START RequestId: 7e677eec-2fec-484b-84bd-47933fa10647 Version: $LATEST
+2022/09/01 13:32:38 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039163798,
+	"requestId": "7e677eec-2fec-484b-84bd-47933fa10647",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b476-5dc53e9467f77aa016c2db77;Parent=1c330098173d327f;Sampled=1"
+	}
+}
+2022/09/01 13:32:38 [collector] Waiting for event...
+END RequestId: 7e677eec-2fec-484b-84bd-47933fa10647
+REPORT RequestId: 7e677eec-2fec-484b-84bd-47933fa10647	Duration: 26.74 ms	Billed Duration: 27 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b476-5dc53e9467f77aa016c2db77	SegmentId: 1c330098173d327f	Sampled: true	
+
+START RequestId: a8fad8dc-4672-4841-9458-2f6fcd249e0f Version: $LATEST
+2022/09/01 13:32:41 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039166293,
+	"requestId": "a8fad8dc-4672-4841-9458-2f6fcd249e0f",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b479-6bfd476423df2d765c087919;Parent=233f37936a65995f;Sampled=1"
+	}
+}
+2022/09/01 13:32:41 [collector] Waiting for event...
+END RequestId: a8fad8dc-4672-4841-9458-2f6fcd249e0f
+REPORT RequestId: a8fad8dc-4672-4841-9458-2f6fcd249e0f	Duration: 48.90 ms	Billed Duration: 49 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b479-6bfd476423df2d765c087919	SegmentId: 233f37936a65995f	Sampled: true	
+
+START RequestId: 2adda34c-2088-4356-a679-2658a35be41c Version: $LATEST
+2022/09/01 13:32:43 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039168861,
+	"requestId": "2adda34c-2088-4356-a679-2658a35be41c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b47b-6aceb4043add18f766b5bfa6;Parent=10201d8f7bf312b9;Sampled=1"
+	}
+}
+2022/09/01 13:32:43 [collector] Waiting for event...
+END RequestId: 2adda34c-2088-4356-a679-2658a35be41c
+REPORT RequestId: 2adda34c-2088-4356-a679-2658a35be41c	Duration: 100.94 ms	Billed Duration: 101 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b47b-6aceb4043add18f766b5bfa6	SegmentId: 10201d8f7bf312b9	Sampled: true	
+
+START RequestId: 593a0716-7b0d-4bae-9d5c-21d89b7a48f5 Version: $LATEST
+2022/09/01 13:32:46 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039171446,
+	"requestId": "593a0716-7b0d-4bae-9d5c-21d89b7a48f5",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b47e-68259ab6158ce9552e9b4bde;Parent=662c01840dde919c;Sampled=1"
+	}
+}
+2022/09/01 13:32:46 [collector] Waiting for event...
+END RequestId: 593a0716-7b0d-4bae-9d5c-21d89b7a48f5
+REPORT RequestId: 593a0716-7b0d-4bae-9d5c-21d89b7a48f5	Duration: 38.55 ms	Billed Duration: 39 ms	Memory Size: 256 MB	Max Memory Used: 158 MB	
+XRAY TraceId: 1-6310b47e-68259ab6158ce9552e9b4bde	SegmentId: 662c01840dde919c	Sampled: true	
+
+START RequestId: deb83b2c-35e2-4f90-8dd6-79c88bf91ab1 Version: $LATEST
+2022/09/01 13:33:16 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039201403,
+	"requestId": "deb83b2c-35e2-4f90-8dd6-79c88bf91ab1",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b49a-4fe7965a397a678c25f34404;Parent=3c9e5e47706c5765;Sampled=1"
+	}
+}
+2022/09/01 13:33:16 [collector] Waiting for event...
+END RequestId: deb83b2c-35e2-4f90-8dd6-79c88bf91ab1
+REPORT RequestId: deb83b2c-35e2-4f90-8dd6-79c88bf91ab1	Duration: 651.01 ms	Billed Duration: 652 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1627.03 ms	
+XRAY TraceId: 1-6310b49a-4fe7965a397a678c25f34404	SegmentId: 3c9e5e47706c5765	Sampled: true	
+
+START RequestId: 97eff78d-7064-4244-9aed-0631754baeab Version: $LATEST
+2022/09/01 13:33:19 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039204557,
+	"requestId": "97eff78d-7064-4244-9aed-0631754baeab",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b49f-28685e5e6d242aa61c55de2d;Parent=163f02ce5fe8d2ed;Sampled=1"
+	}
+}
+2022/09/01 13:33:19 [collector] Waiting for event...
+END RequestId: 97eff78d-7064-4244-9aed-0631754baeab
+REPORT RequestId: 97eff78d-7064-4244-9aed-0631754baeab	Duration: 53.02 ms	Billed Duration: 54 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b49f-28685e5e6d242aa61c55de2d	SegmentId: 163f02ce5fe8d2ed	Sampled: true	
+
+START RequestId: e9dffe61-f203-47e7-98ab-71fb9bf74d59 Version: $LATEST
+2022/09/01 13:33:22 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039207118,
+	"requestId": "e9dffe61-f203-47e7-98ab-71fb9bf74d59",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4a2-07f407a41a72ae9d3717909b;Parent=3755e0127a1a6e24;Sampled=1"
+	}
+}
+2022/09/01 13:33:22 [collector] Waiting for event...
+END RequestId: e9dffe61-f203-47e7-98ab-71fb9bf74d59
+REPORT RequestId: e9dffe61-f203-47e7-98ab-71fb9bf74d59	Duration: 35.13 ms	Billed Duration: 36 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b4a2-07f407a41a72ae9d3717909b	SegmentId: 3755e0127a1a6e24	Sampled: true	
+
+START RequestId: dc7508dd-52cf-4fd6-a177-13b2b48ba9f9 Version: $LATEST
+2022/09/01 13:33:24 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039209675,
+	"requestId": "dc7508dd-52cf-4fd6-a177-13b2b48ba9f9",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4a4-731c84db1208607e660f6b8a;Parent=46c8fa516caf2760;Sampled=1"
+	}
+}
+2022/09/01 13:33:24 [collector] Waiting for event...
+END RequestId: dc7508dd-52cf-4fd6-a177-13b2b48ba9f9
+REPORT RequestId: dc7508dd-52cf-4fd6-a177-13b2b48ba9f9	Duration: 57.42 ms	Billed Duration: 58 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b4a4-731c84db1208607e660f6b8a	SegmentId: 46c8fa516caf2760	Sampled: true	
+
+START RequestId: bd2e4381-9130-4d95-bcb8-1803beb5bdf6 Version: $LATEST
+2022/09/01 13:33:27 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039212207,
+	"requestId": "bd2e4381-9130-4d95-bcb8-1803beb5bdf6",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4a7-603acaf5697098042d4d45bd;Parent=065d6cf6746b9037;Sampled=1"
+	}
+}
+2022/09/01 13:33:27 [collector] Waiting for event...
+END RequestId: bd2e4381-9130-4d95-bcb8-1803beb5bdf6
+REPORT RequestId: bd2e4381-9130-4d95-bcb8-1803beb5bdf6	Duration: 25.65 ms	Billed Duration: 26 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b4a7-603acaf5697098042d4d45bd	SegmentId: 065d6cf6746b9037	Sampled: true	
+
+START RequestId: 905504e2-e0ec-4090-a558-d96d40395fdc Version: $LATEST
+2022/09/01 13:33:29 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039214742,
+	"requestId": "905504e2-e0ec-4090-a558-d96d40395fdc",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4a9-023a04cb63eb8cc554173a8b;Parent=444f5d1978a13d3f;Sampled=1"
+	}
+}
+2022/09/01 13:33:29 [collector] Waiting for event...
+END RequestId: 905504e2-e0ec-4090-a558-d96d40395fdc
+REPORT RequestId: 905504e2-e0ec-4090-a558-d96d40395fdc	Duration: 30.65 ms	Billed Duration: 31 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4a9-023a04cb63eb8cc554173a8b	SegmentId: 444f5d1978a13d3f	Sampled: true	
+
+START RequestId: de44f679-e9d1-48a9-afd7-b779bf837c90 Version: $LATEST
+2022/09/01 13:33:32 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039217292,
+	"requestId": "de44f679-e9d1-48a9-afd7-b779bf837c90",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4ac-095edcb800fbb1334fa897c4;Parent=7143f4b6030b7ee8;Sampled=1"
+	}
+}
+2022/09/01 13:33:32 [collector] Waiting for event...
+END RequestId: de44f679-e9d1-48a9-afd7-b779bf837c90
+REPORT RequestId: de44f679-e9d1-48a9-afd7-b779bf837c90	Duration: 38.71 ms	Billed Duration: 39 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4ac-095edcb800fbb1334fa897c4	SegmentId: 7143f4b6030b7ee8	Sampled: true	
+
+START RequestId: 62e6d86a-2d18-436c-b97f-ea52e303976f Version: $LATEST
+2022/09/01 13:33:34 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039219848,
+	"requestId": "62e6d86a-2d18-436c-b97f-ea52e303976f",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4ae-09d8c3034e8c43f12cf70a6b;Parent=78496b9e133a3983;Sampled=1"
+	}
+}
+2022/09/01 13:33:34 [collector] Waiting for event...
+END RequestId: 62e6d86a-2d18-436c-b97f-ea52e303976f
+REPORT RequestId: 62e6d86a-2d18-436c-b97f-ea52e303976f	Duration: 22.27 ms	Billed Duration: 23 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4ae-09d8c3034e8c43f12cf70a6b	SegmentId: 78496b9e133a3983	Sampled: true	
+
+START RequestId: 8235c4cd-5662-439c-81df-9a701c203f8a Version: $LATEST
+2022/09/01 13:33:37 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039222373,
+	"requestId": "8235c4cd-5662-439c-81df-9a701c203f8a",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4b1-406636da5fda02ba6653d902;Parent=75c19c4954a9c977;Sampled=1"
+	}
+}
+2022/09/01 13:33:37 [collector] Waiting for event...
+END RequestId: 8235c4cd-5662-439c-81df-9a701c203f8a
+REPORT RequestId: 8235c4cd-5662-439c-81df-9a701c203f8a	Duration: 39.31 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4b1-406636da5fda02ba6653d902	SegmentId: 75c19c4954a9c977	Sampled: true	
+
+START RequestId: e74087c7-8453-4ad4-ac11-ada9f308b3f8 Version: $LATEST
+2022/09/01 13:33:39 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039224931,
+	"requestId": "e74087c7-8453-4ad4-ac11-ada9f308b3f8",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4b3-65ce042643a62a0d736c59c7;Parent=2e7c5c22210da42d;Sampled=1"
+	}
+}
+2022/09/01 13:33:39 [collector] Waiting for event...
+END RequestId: e74087c7-8453-4ad4-ac11-ada9f308b3f8
+REPORT RequestId: e74087c7-8453-4ad4-ac11-ada9f308b3f8	Duration: 78.81 ms	Billed Duration: 79 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4b3-65ce042643a62a0d736c59c7	SegmentId: 2e7c5c22210da42d	Sampled: true	
+
+START RequestId: 91c28961-8f0c-4f6b-bb27-bdd0af03b9af Version: $LATEST
+2022/09/01 13:33:42 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039227514,
+	"requestId": "91c28961-8f0c-4f6b-bb27-bdd0af03b9af",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4b6-5d1bae053f1d3d465cb312bb;Parent=0f434c784b2e4698;Sampled=1"
+	}
+}
+2022/09/01 13:33:42 [collector] Waiting for event...
+END RequestId: 91c28961-8f0c-4f6b-bb27-bdd0af03b9af
+REPORT RequestId: 91c28961-8f0c-4f6b-bb27-bdd0af03b9af	Duration: 38.44 ms	Billed Duration: 39 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b4b6-5d1bae053f1d3d465cb312bb	SegmentId: 0f434c784b2e4698	Sampled: true	
+
+START RequestId: 8582e36d-0fce-46b7-8eb3-b562e4ba7f87 Version: $LATEST
+2022/09/01 13:34:12 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039257527,
+	"requestId": "8582e36d-0fce-46b7-8eb3-b562e4ba7f87",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4d2-03e5f57c132eb31f6ec3354b;Parent=180dbe224a8c303e;Sampled=1"
+	}
+}
+2022/09/01 13:34:12 [collector] Waiting for event...
+END RequestId: 8582e36d-0fce-46b7-8eb3-b562e4ba7f87
+REPORT RequestId: 8582e36d-0fce-46b7-8eb3-b562e4ba7f87	Duration: 723.78 ms	Billed Duration: 724 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1631.55 ms	
+XRAY TraceId: 1-6310b4d2-03e5f57c132eb31f6ec3354b	SegmentId: 180dbe224a8c303e	Sampled: true	
+
+START RequestId: a8b30200-14c3-4e7d-98f0-3b51cf37aa4e Version: $LATEST
+2022/09/01 13:34:15 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039260773,
+	"requestId": "a8b30200-14c3-4e7d-98f0-3b51cf37aa4e",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4d7-3e64e6652454fae14970475b;Parent=087bf6374a5d9bf7;Sampled=1"
+	}
+}
+2022/09/01 13:34:15 [collector] Waiting for event...
+END RequestId: a8b30200-14c3-4e7d-98f0-3b51cf37aa4e
+REPORT RequestId: a8b30200-14c3-4e7d-98f0-3b51cf37aa4e	Duration: 53.56 ms	Billed Duration: 54 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b4d7-3e64e6652454fae14970475b	SegmentId: 087bf6374a5d9bf7	Sampled: true	
+
+START RequestId: 7d461fe2-9c03-4028-bf19-32aa14c76efd Version: $LATEST
+2022/09/01 13:34:18 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039263340,
+	"requestId": "7d461fe2-9c03-4028-bf19-32aa14c76efd",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4da-68bf97e2425bc68619532999;Parent=5870af62783abfff;Sampled=1"
+	}
+}
+2022/09/01 13:34:18 [collector] Waiting for event...
+END RequestId: 7d461fe2-9c03-4028-bf19-32aa14c76efd
+REPORT RequestId: 7d461fe2-9c03-4028-bf19-32aa14c76efd	Duration: 29.09 ms	Billed Duration: 30 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4da-68bf97e2425bc68619532999	SegmentId: 5870af62783abfff	Sampled: true	
+
+START RequestId: 4fb44603-f6b0-471f-8eab-912fec6a24bf Version: $LATEST
+2022/09/01 13:34:20 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039265883,
+	"requestId": "4fb44603-f6b0-471f-8eab-912fec6a24bf",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4dc-26e9078a40437474057e808b;Parent=3d1b3ffb7a491822;Sampled=1"
+	}
+}
+2022/09/01 13:34:20 [collector] Waiting for event...
+END RequestId: 4fb44603-f6b0-471f-8eab-912fec6a24bf
+REPORT RequestId: 4fb44603-f6b0-471f-8eab-912fec6a24bf	Duration: 24.12 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4dc-26e9078a40437474057e808b	SegmentId: 3d1b3ffb7a491822	Sampled: true	
+
+START RequestId: 2bc77a55-44d3-4ab7-af9a-1143ad7fb06c Version: $LATEST
+2022/09/01 13:34:23 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039268403,
+	"requestId": "2bc77a55-44d3-4ab7-af9a-1143ad7fb06c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4df-19bb1bec638c65cd487fc204;Parent=30e0e6da01b6b517;Sampled=1"
+	}
+}
+2022/09/01 13:34:23 [collector] Waiting for event...
+END RequestId: 2bc77a55-44d3-4ab7-af9a-1143ad7fb06c
+REPORT RequestId: 2bc77a55-44d3-4ab7-af9a-1143ad7fb06c	Duration: 26.14 ms	Billed Duration: 27 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4df-19bb1bec638c65cd487fc204	SegmentId: 30e0e6da01b6b517	Sampled: true	
+
+START RequestId: bf979d62-a06b-4292-96cb-1ddff14a25d3 Version: $LATEST
+2022/09/01 13:34:25 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039270961,
+	"requestId": "bf979d62-a06b-4292-96cb-1ddff14a25d3",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4e1-44b7567e4fc21bcb1b2d226c;Parent=2d3e406d5f0871b8;Sampled=1"
+	}
+}
+2022/09/01 13:34:25 [collector] Waiting for event...
+END RequestId: bf979d62-a06b-4292-96cb-1ddff14a25d3
+REPORT RequestId: bf979d62-a06b-4292-96cb-1ddff14a25d3	Duration: 27.64 ms	Billed Duration: 28 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4e1-44b7567e4fc21bcb1b2d226c	SegmentId: 2d3e406d5f0871b8	Sampled: true	
+
+START RequestId: 4d4a3cfe-7bab-45d1-a37b-e645cba6d1bc Version: $LATEST
+2022/09/01 13:34:28 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039273498,
+	"requestId": "4d4a3cfe-7bab-45d1-a37b-e645cba6d1bc",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4e4-0c09fabb47ea7f1c003516de;Parent=2ccff8e359e6f081;Sampled=1"
+	}
+}
+2022/09/01 13:34:28 [collector] Waiting for event...
+END RequestId: 4d4a3cfe-7bab-45d1-a37b-e645cba6d1bc
+REPORT RequestId: 4d4a3cfe-7bab-45d1-a37b-e645cba6d1bc	Duration: 29.70 ms	Billed Duration: 30 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4e4-0c09fabb47ea7f1c003516de	SegmentId: 2ccff8e359e6f081	Sampled: true	
+
+START RequestId: f7dfd105-f803-4ef9-810d-8da55fa41ab1 Version: $LATEST
+2022/09/01 13:34:31 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039276036,
+	"requestId": "f7dfd105-f803-4ef9-810d-8da55fa41ab1",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4e7-1c25f5e50dbaf49e42875bc2;Parent=7e7ebc1719ed1db0;Sampled=1"
+	}
+}
+2022/09/01 13:34:31 [collector] Waiting for event...
+END RequestId: f7dfd105-f803-4ef9-810d-8da55fa41ab1
+REPORT RequestId: f7dfd105-f803-4ef9-810d-8da55fa41ab1	Duration: 15.14 ms	Billed Duration: 16 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4e7-1c25f5e50dbaf49e42875bc2	SegmentId: 7e7ebc1719ed1db0	Sampled: true	
+
+START RequestId: 67941866-6b54-4dd3-b5a8-38b01ce5a0ab Version: $LATEST
+2022/09/01 13:34:33 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039278585,
+	"requestId": "67941866-6b54-4dd3-b5a8-38b01ce5a0ab",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4e9-321e227640e377317868e8ac;Parent=62dd793e7a38ce0e;Sampled=1"
+	}
+}
+2022/09/01 13:34:33 [collector] Waiting for event...
+END RequestId: 67941866-6b54-4dd3-b5a8-38b01ce5a0ab
+REPORT RequestId: 67941866-6b54-4dd3-b5a8-38b01ce5a0ab	Duration: 44.89 ms	Billed Duration: 45 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b4e9-321e227640e377317868e8ac	SegmentId: 62dd793e7a38ce0e	Sampled: true	
+
+START RequestId: e0b40bd7-34e5-4588-8c5d-f0bf58fef5d3 Version: $LATEST
+2022/09/01 13:34:36 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039281146,
+	"requestId": "e0b40bd7-34e5-4588-8c5d-f0bf58fef5d3",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4ec-7d5cf4cc0836b98b3675a59f;Parent=03af0f7737d83bcc;Sampled=1"
+	}
+}
+2022/09/01 13:34:36 [collector] Waiting for event...
+END RequestId: e0b40bd7-34e5-4588-8c5d-f0bf58fef5d3
+REPORT RequestId: e0b40bd7-34e5-4588-8c5d-f0bf58fef5d3	Duration: 83.49 ms	Billed Duration: 84 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b4ec-7d5cf4cc0836b98b3675a59f	SegmentId: 03af0f7737d83bcc	Sampled: true	
+
+START RequestId: 76f2a764-7379-4e9f-9959-7231996da9f2 Version: $LATEST
+2022/09/01 13:34:38 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039283748,
+	"requestId": "76f2a764-7379-4e9f-9959-7231996da9f2",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b4ee-5b6e863129db573a1256e737;Parent=5c51b130649f85d2;Sampled=1"
+	}
+}
+2022/09/01 13:34:38 [collector] Waiting for event...
+END RequestId: 76f2a764-7379-4e9f-9959-7231996da9f2
+REPORT RequestId: 76f2a764-7379-4e9f-9959-7231996da9f2	Duration: 39.75 ms	Billed Duration: 40 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b4ee-5b6e863129db573a1256e737	SegmentId: 5c51b130649f85d2	Sampled: true	
+
+START RequestId: 751e144d-19bd-4912-b7ca-7dae1ea24604 Version: $LATEST
+2022/09/01 13:35:08 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039313769,
+	"requestId": "751e144d-19bd-4912-b7ca-7dae1ea24604",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b50a-39cbfc597d1841083e846cd5;Parent=654f045d3c24423f;Sampled=1"
+	}
+}
+2022/09/01 13:35:08 [collector] Waiting for event...
+END RequestId: 751e144d-19bd-4912-b7ca-7dae1ea24604
+REPORT RequestId: 751e144d-19bd-4912-b7ca-7dae1ea24604	Duration: 723.54 ms	Billed Duration: 724 ms	Memory Size: 256 MB	Max Memory Used: 154 MB	Init Duration: 1663.84 ms	
+XRAY TraceId: 1-6310b50a-39cbfc597d1841083e846cd5	SegmentId: 654f045d3c24423f	Sampled: true	
+
+START RequestId: 25481ec2-7747-4dde-957e-afa246bffe3b Version: $LATEST
+2022/09/01 13:35:11 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039316979,
+	"requestId": "25481ec2-7747-4dde-957e-afa246bffe3b",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b50f-413a68e7451e6067445edb64;Parent=2638af0476858aab;Sampled=1"
+	}
+}
+2022/09/01 13:35:11 [collector] Waiting for event...
+END RequestId: 25481ec2-7747-4dde-957e-afa246bffe3b
+REPORT RequestId: 25481ec2-7747-4dde-957e-afa246bffe3b	Duration: 50.28 ms	Billed Duration: 51 ms	Memory Size: 256 MB	Max Memory Used: 154 MB	
+XRAY TraceId: 1-6310b50f-413a68e7451e6067445edb64	SegmentId: 2638af0476858aab	Sampled: true	
+
+START RequestId: 76f4a1df-f09c-4329-988a-ed7884e34dd1 Version: $LATEST
+2022/09/01 13:35:14 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039319537,
+	"requestId": "76f4a1df-f09c-4329-988a-ed7884e34dd1",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b512-3dc5785950053e6d26519052;Parent=63333aa730ca70ab;Sampled=1"
+	}
+}
+2022/09/01 13:35:14 [collector] Waiting for event...
+END RequestId: 76f4a1df-f09c-4329-988a-ed7884e34dd1
+REPORT RequestId: 76f4a1df-f09c-4329-988a-ed7884e34dd1	Duration: 33.58 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b512-3dc5785950053e6d26519052	SegmentId: 63333aa730ca70ab	Sampled: true	
+
+START RequestId: 350eb00e-ed94-4ada-b34c-eb46094f00f5 Version: $LATEST
+2022/09/01 13:35:17 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039322095,
+	"requestId": "350eb00e-ed94-4ada-b34c-eb46094f00f5",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b515-42c8c5b106eb0a926e5637f6;Parent=06e411c725b5c9cc;Sampled=1"
+	}
+}
+2022/09/01 13:35:17 [collector] Waiting for event...
+END RequestId: 350eb00e-ed94-4ada-b34c-eb46094f00f5
+REPORT RequestId: 350eb00e-ed94-4ada-b34c-eb46094f00f5	Duration: 33.50 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b515-42c8c5b106eb0a926e5637f6	SegmentId: 06e411c725b5c9cc	Sampled: true	
+
+START RequestId: d0589c0e-f0d0-4d97-ac96-fb44d63ed330 Version: $LATEST
+2022/09/01 13:35:19 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039324642,
+	"requestId": "d0589c0e-f0d0-4d97-ac96-fb44d63ed330",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b517-2b7c43bf0768cb1415f60f54;Parent=269f8e6b1aa31530;Sampled=1"
+	}
+}
+2022/09/01 13:35:19 [collector] Waiting for event...
+END RequestId: d0589c0e-f0d0-4d97-ac96-fb44d63ed330
+REPORT RequestId: d0589c0e-f0d0-4d97-ac96-fb44d63ed330	Duration: 28.50 ms	Billed Duration: 29 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b517-2b7c43bf0768cb1415f60f54	SegmentId: 269f8e6b1aa31530	Sampled: true	
+
+START RequestId: 74d8cf34-1c2e-43a9-b166-efaeb51eb230 Version: $LATEST
+2022/09/01 13:35:22 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039327175,
+	"requestId": "74d8cf34-1c2e-43a9-b166-efaeb51eb230",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b51a-2fbdbc660d05f0d41968677b;Parent=6d8e92dc5d22df6f;Sampled=1"
+	}
+}
+2022/09/01 13:35:22 [collector] Waiting for event...
+END RequestId: 74d8cf34-1c2e-43a9-b166-efaeb51eb230
+REPORT RequestId: 74d8cf34-1c2e-43a9-b166-efaeb51eb230	Duration: 35.70 ms	Billed Duration: 36 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b51a-2fbdbc660d05f0d41968677b	SegmentId: 6d8e92dc5d22df6f	Sampled: true	
+
+START RequestId: 681162a5-2d01-4ff4-820b-64c6a6b94471 Version: $LATEST
+2022/09/01 13:35:24 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039329723,
+	"requestId": "681162a5-2d01-4ff4-820b-64c6a6b94471",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b51c-4eb5d30516e6e0f25d7f8e59;Parent=1df20a2125e8911a;Sampled=1"
+	}
+}
+2022/09/01 13:35:24 [collector] Waiting for event...
+END RequestId: 681162a5-2d01-4ff4-820b-64c6a6b94471
+REPORT RequestId: 681162a5-2d01-4ff4-820b-64c6a6b94471	Duration: 25.26 ms	Billed Duration: 26 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b51c-4eb5d30516e6e0f25d7f8e59	SegmentId: 1df20a2125e8911a	Sampled: true	
+
+START RequestId: b3e3ca96-4d47-4831-86c2-c910a12d6227 Version: $LATEST
+2022/09/01 13:35:27 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039332358,
+	"requestId": "b3e3ca96-4d47-4831-86c2-c910a12d6227",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b51f-5af405dd419f794d09daef80;Parent=1f91c8404537fba4;Sampled=1"
+	}
+}
+2022/09/01 13:35:27 [collector] Waiting for event...
+END RequestId: b3e3ca96-4d47-4831-86c2-c910a12d6227
+REPORT RequestId: b3e3ca96-4d47-4831-86c2-c910a12d6227	Duration: 33.29 ms	Billed Duration: 34 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b51f-5af405dd419f794d09daef80	SegmentId: 1f91c8404537fba4	Sampled: true	
+
+START RequestId: efd4fe42-e5ce-42a2-819f-2f8ab9cef017 Version: $LATEST
+2022/09/01 13:35:29 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039334920,
+	"requestId": "efd4fe42-e5ce-42a2-819f-2f8ab9cef017",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b521-316766be7a16f14777b1306f;Parent=2e3ce8733361f603;Sampled=1"
+	}
+}
+2022/09/01 13:35:29 [collector] Waiting for event...
+END RequestId: efd4fe42-e5ce-42a2-819f-2f8ab9cef017
+REPORT RequestId: efd4fe42-e5ce-42a2-819f-2f8ab9cef017	Duration: 31.61 ms	Billed Duration: 32 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b521-316766be7a16f14777b1306f	SegmentId: 2e3ce8733361f603	Sampled: true	
+
+START RequestId: 1ff6ae47-7df6-45ca-a9f9-491fe124939b Version: $LATEST
+2022/09/01 13:35:32 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039337464,
+	"requestId": "1ff6ae47-7df6-45ca-a9f9-491fe124939b",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b524-06f6ba85583424882d104c4d;Parent=2a12d59c03dfdb2a;Sampled=1"
+	}
+}
+2022/09/01 13:35:32 [collector] Waiting for event...
+END RequestId: 1ff6ae47-7df6-45ca-a9f9-491fe124939b
+REPORT RequestId: 1ff6ae47-7df6-45ca-a9f9-491fe124939b	Duration: 64.65 ms	Billed Duration: 65 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b524-06f6ba85583424882d104c4d	SegmentId: 2a12d59c03dfdb2a	Sampled: true	
+
+START RequestId: 88cde3cf-233e-4061-9921-972b841a0bea Version: $LATEST
+2022/09/01 13:35:35 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039340017,
+	"requestId": "88cde3cf-233e-4061-9921-972b841a0bea",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b527-4242554e36e5384e2c489342;Parent=438d15d46cecd4ad;Sampled=1"
+	}
+}
+2022/09/01 13:35:35 [collector] Waiting for event...
+END RequestId: 88cde3cf-233e-4061-9921-972b841a0bea
+REPORT RequestId: 88cde3cf-233e-4061-9921-972b841a0bea	Duration: 52.51 ms	Billed Duration: 53 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b527-4242554e36e5384e2c489342	SegmentId: 438d15d46cecd4ad	Sampled: true	
+
+START RequestId: 67b96d84-a321-41e5-ae6e-4b8ffe86fb9f Version: $LATEST
+2022/09/01 13:36:04 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039369991,
+	"requestId": "67b96d84-a321-41e5-ae6e-4b8ffe86fb9f",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b543-1e35b61804ebc6244516d69a;Parent=42601ecc403ee7c4;Sampled=1"
+	}
+}
+2022/09/01 13:36:04 [collector] Waiting for event...
+END RequestId: 67b96d84-a321-41e5-ae6e-4b8ffe86fb9f
+REPORT RequestId: 67b96d84-a321-41e5-ae6e-4b8ffe86fb9f	Duration: 690.26 ms	Billed Duration: 691 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1574.66 ms	
+XRAY TraceId: 1-6310b543-1e35b61804ebc6244516d69a	SegmentId: 42601ecc403ee7c4	Sampled: true	
+
+START RequestId: 862543fc-4066-417e-902d-17cfeeecacd2 Version: $LATEST
+2022/09/01 13:36:08 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039373211,
+	"requestId": "862543fc-4066-417e-902d-17cfeeecacd2",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b548-5b50e8e9556281bc6821698c;Parent=6359b76e163bcd03;Sampled=1"
+	}
+}
+2022/09/01 13:36:08 [collector] Waiting for event...
+END RequestId: 862543fc-4066-417e-902d-17cfeeecacd2
+REPORT RequestId: 862543fc-4066-417e-902d-17cfeeecacd2	Duration: 47.47 ms	Billed Duration: 48 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b548-5b50e8e9556281bc6821698c	SegmentId: 6359b76e163bcd03	Sampled: true	
+
+START RequestId: 0fbe99c2-ac9c-4da5-9ed2-7516993f257c Version: $LATEST
+2022/09/01 13:36:10 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039375733,
+	"requestId": "0fbe99c2-ac9c-4da5-9ed2-7516993f257c",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b54a-052f7e6818c99ac060ee197f;Parent=6252a3c6548cfac3;Sampled=1"
+	}
+}
+2022/09/01 13:36:10 [collector] Waiting for event...
+END RequestId: 0fbe99c2-ac9c-4da5-9ed2-7516993f257c
+REPORT RequestId: 0fbe99c2-ac9c-4da5-9ed2-7516993f257c	Duration: 27.89 ms	Billed Duration: 28 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b54a-052f7e6818c99ac060ee197f	SegmentId: 6252a3c6548cfac3	Sampled: true	
+
+START RequestId: 94744091-b3ac-4ef3-9afa-06ec7c927317 Version: $LATEST
+2022/09/01 13:36:13 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039378287,
+	"requestId": "94744091-b3ac-4ef3-9afa-06ec7c927317",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b54d-08c3759120f81dbf196961bf;Parent=314c60c177a8a27d;Sampled=1"
+	}
+}
+2022/09/01 13:36:13 [collector] Waiting for event...
+END RequestId: 94744091-b3ac-4ef3-9afa-06ec7c927317
+REPORT RequestId: 94744091-b3ac-4ef3-9afa-06ec7c927317	Duration: 34.04 ms	Billed Duration: 35 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b54d-08c3759120f81dbf196961bf	SegmentId: 314c60c177a8a27d	Sampled: true	
+
+START RequestId: 7e41ad72-12e0-44cf-a718-08f63051c454 Version: $LATEST
+2022/09/01 13:36:15 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039380822,
+	"requestId": "7e41ad72-12e0-44cf-a718-08f63051c454",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b54f-37e9ee045424d9ee6c98da0a;Parent=3eb6192d3adb2c2a;Sampled=1"
+	}
+}
+2022/09/01 13:36:15 [collector] Waiting for event...
+END RequestId: 7e41ad72-12e0-44cf-a718-08f63051c454
+REPORT RequestId: 7e41ad72-12e0-44cf-a718-08f63051c454	Duration: 38.16 ms	Billed Duration: 39 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b54f-37e9ee045424d9ee6c98da0a	SegmentId: 3eb6192d3adb2c2a	Sampled: true	
+
+START RequestId: 02581cdc-11b1-42bb-b061-4a1dbd86d8ed Version: $LATEST
+2022/09/01 13:36:18 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039383462,
+	"requestId": "02581cdc-11b1-42bb-b061-4a1dbd86d8ed",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b552-535bc5952ff1a5207cabf7ec;Parent=728273f1529e208c;Sampled=1"
+	}
+}
+2022/09/01 13:36:18 [collector] Waiting for event...
+END RequestId: 02581cdc-11b1-42bb-b061-4a1dbd86d8ed
+REPORT RequestId: 02581cdc-11b1-42bb-b061-4a1dbd86d8ed	Duration: 38.40 ms	Billed Duration: 39 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b552-535bc5952ff1a5207cabf7ec	SegmentId: 728273f1529e208c	Sampled: true	
+
+START RequestId: 2d7af9ad-a8fc-4e05-8e0c-11b10eab0a62 Version: $LATEST
+2022/09/01 13:36:20 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039385983,
+	"requestId": "2d7af9ad-a8fc-4e05-8e0c-11b10eab0a62",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b554-7d50b35943b5614448b460d7;Parent=64959757123b90d7;Sampled=1"
+	}
+}
+2022/09/01 13:36:20 [collector] Waiting for event...
+END RequestId: 2d7af9ad-a8fc-4e05-8e0c-11b10eab0a62
+REPORT RequestId: 2d7af9ad-a8fc-4e05-8e0c-11b10eab0a62	Duration: 37.99 ms	Billed Duration: 38 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b554-7d50b35943b5614448b460d7	SegmentId: 64959757123b90d7	Sampled: true	
+
+START RequestId: 01c6bab9-6e63-4132-9184-a7e3b2143479 Version: $LATEST
+2022/09/01 13:36:23 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039388527,
+	"requestId": "01c6bab9-6e63-4132-9184-a7e3b2143479",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b557-5a148c8346215600688f4f51;Parent=4831714e0895242a;Sampled=1"
+	}
+}
+2022/09/01 13:36:23 [collector] Waiting for event...
+END RequestId: 01c6bab9-6e63-4132-9184-a7e3b2143479
+REPORT RequestId: 01c6bab9-6e63-4132-9184-a7e3b2143479	Duration: 32.54 ms	Billed Duration: 33 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b557-5a148c8346215600688f4f51	SegmentId: 4831714e0895242a	Sampled: true	
+
+START RequestId: 15658f9f-8a73-4bb9-80fe-99e985b20aa6 Version: $LATEST
+2022/09/01 13:36:26 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039391051,
+	"requestId": "15658f9f-8a73-4bb9-80fe-99e985b20aa6",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b55a-0d62753921b9d6424a209b7e;Parent=5a4299f74f64b946;Sampled=1"
+	}
+}
+2022/09/01 13:36:26 [collector] Waiting for event...
+END RequestId: 15658f9f-8a73-4bb9-80fe-99e985b20aa6
+REPORT RequestId: 15658f9f-8a73-4bb9-80fe-99e985b20aa6	Duration: 30.38 ms	Billed Duration: 31 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b55a-0d62753921b9d6424a209b7e	SegmentId: 5a4299f74f64b946	Sampled: true	
+
+START RequestId: 88db77a1-a3b6-451f-aa72-e7b7d45713bd Version: $LATEST
+2022/09/01 13:36:28 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039393596,
+	"requestId": "88db77a1-a3b6-451f-aa72-e7b7d45713bd",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b55c-7e33fe8c459fefee69742984;Parent=054b98ac71912eda;Sampled=1"
+	}
+}
+2022/09/01 13:36:28 [collector] Waiting for event...
+END RequestId: 88db77a1-a3b6-451f-aa72-e7b7d45713bd
+REPORT RequestId: 88db77a1-a3b6-451f-aa72-e7b7d45713bd	Duration: 64.12 ms	Billed Duration: 65 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b55c-7e33fe8c459fefee69742984	SegmentId: 054b98ac71912eda	Sampled: true	
+
+START RequestId: 7dca2026-47b2-4a1e-834a-b2fe8e7ce30a Version: $LATEST
+2022/09/01 13:36:31 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039396146,
+	"requestId": "7dca2026-47b2-4a1e-834a-b2fe8e7ce30a",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b55f-40ae73441f23df8f2ce35b37;Parent=1ebcb50625df3373;Sampled=1"
+	}
+}
+2022/09/01 13:36:31 [collector] Waiting for event...
+END RequestId: 7dca2026-47b2-4a1e-834a-b2fe8e7ce30a
+REPORT RequestId: 7dca2026-47b2-4a1e-834a-b2fe8e7ce30a	Duration: 13.72 ms	Billed Duration: 14 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b55f-40ae73441f23df8f2ce35b37	SegmentId: 1ebcb50625df3373	Sampled: true	
+
+START RequestId: d89d7d77-b8f2-48bf-b72f-56120af1a703 Version: $LATEST
+2022/09/01 13:37:01 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039426006,
+	"requestId": "d89d7d77-b8f2-48bf-b72f-56120af1a703",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b57b-3a9e1d3b7d89ba081a5ee8e3;Parent=0b1f3e1e6ba1aaff;Sampled=1"
+	}
+}
+2022/09/01 13:37:01 [collector] Waiting for event...
+END RequestId: d89d7d77-b8f2-48bf-b72f-56120af1a703
+REPORT RequestId: d89d7d77-b8f2-48bf-b72f-56120af1a703	Duration: 597.01 ms	Billed Duration: 598 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	Init Duration: 1603.55 ms	
+XRAY TraceId: 1-6310b57b-3a9e1d3b7d89ba081a5ee8e3	SegmentId: 0b1f3e1e6ba1aaff	Sampled: true	
+
+START RequestId: 16c83cab-5893-4c40-b620-06cd1ebc4791 Version: $LATEST
+2022/09/01 13:37:04 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039429129,
+	"requestId": "16c83cab-5893-4c40-b620-06cd1ebc4791",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b580-34e7d88d20c47a1a18121b62;Parent=52d35f6305c9102e;Sampled=1"
+	}
+}
+2022/09/01 13:37:04 [collector] Waiting for event...
+END RequestId: 16c83cab-5893-4c40-b620-06cd1ebc4791
+REPORT RequestId: 16c83cab-5893-4c40-b620-06cd1ebc4791	Duration: 52.52 ms	Billed Duration: 53 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b580-34e7d88d20c47a1a18121b62	SegmentId: 52d35f6305c9102e	Sampled: true	
+
+START RequestId: ea4955ff-b423-460c-a86d-e58880a5a7ca Version: $LATEST
+2022/09/01 13:37:06 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039431686,
+	"requestId": "ea4955ff-b423-460c-a86d-e58880a5a7ca",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b582-0d4003e876ed9a0f188a8383;Parent=7078f22c3eadadcd;Sampled=1"
+	}
+}
+2022/09/01 13:37:06 [collector] Waiting for event...
+END RequestId: ea4955ff-b423-460c-a86d-e58880a5a7ca
+REPORT RequestId: ea4955ff-b423-460c-a86d-e58880a5a7ca	Duration: 58.40 ms	Billed Duration: 59 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b582-0d4003e876ed9a0f188a8383	SegmentId: 7078f22c3eadadcd	Sampled: true	
+
+START RequestId: e1d3f6fa-b36f-4b71-bd72-cc2f4ec6f91d Version: $LATEST
+2022/09/01 13:37:09 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039434286,
+	"requestId": "e1d3f6fa-b36f-4b71-bd72-cc2f4ec6f91d",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b585-7e88c8be45d2f3377e104feb;Parent=34bdfdff457af8ed;Sampled=1"
+	}
+}
+2022/09/01 13:37:09 [collector] Waiting for event...
+END RequestId: e1d3f6fa-b36f-4b71-bd72-cc2f4ec6f91d
+REPORT RequestId: e1d3f6fa-b36f-4b71-bd72-cc2f4ec6f91d	Duration: 37.49 ms	Billed Duration: 38 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b585-7e88c8be45d2f3377e104feb	SegmentId: 34bdfdff457af8ed	Sampled: true	
+
+START RequestId: 767d0049-1629-4dc1-86c6-925fd91971ad Version: $LATEST
+2022/09/01 13:37:11 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039436853,
+	"requestId": "767d0049-1629-4dc1-86c6-925fd91971ad",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b587-04bec83b33b30d2301bb3285;Parent=4767075a4baf9cf5;Sampled=1"
+	}
+}
+2022/09/01 13:37:11 [collector] Waiting for event...
+END RequestId: 767d0049-1629-4dc1-86c6-925fd91971ad
+REPORT RequestId: 767d0049-1629-4dc1-86c6-925fd91971ad	Duration: 48.22 ms	Billed Duration: 49 ms	Memory Size: 256 MB	Max Memory Used: 155 MB	
+XRAY TraceId: 1-6310b587-04bec83b33b30d2301bb3285	SegmentId: 4767075a4baf9cf5	Sampled: true	
+
+START RequestId: fecc1256-2965-4a17-8cba-487dd3b41e66 Version: $LATEST
+2022/09/01 13:37:14 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039439430,
+	"requestId": "fecc1256-2965-4a17-8cba-487dd3b41e66",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b58a-5de324c3785d104405dfa900;Parent=4f95f89c4fe0878c;Sampled=1"
+	}
+}
+2022/09/01 13:37:14 [collector] Waiting for event...
+END RequestId: fecc1256-2965-4a17-8cba-487dd3b41e66
+REPORT RequestId: fecc1256-2965-4a17-8cba-487dd3b41e66	Duration: 34.42 ms	Billed Duration: 35 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b58a-5de324c3785d104405dfa900	SegmentId: 4f95f89c4fe0878c	Sampled: true	
+
+START RequestId: fe9ee2ca-6dee-4f79-813c-917a456adb34 Version: $LATEST
+2022/09/01 13:37:16 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039441976,
+	"requestId": "fe9ee2ca-6dee-4f79-813c-917a456adb34",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b58c-030ddcdf5b464a61119aafee;Parent=658e0a0a6d776627;Sampled=1"
+	}
+}
+2022/09/01 13:37:16 [collector] Waiting for event...
+END RequestId: fe9ee2ca-6dee-4f79-813c-917a456adb34
+REPORT RequestId: fe9ee2ca-6dee-4f79-813c-917a456adb34	Duration: 27.64 ms	Billed Duration: 28 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b58c-030ddcdf5b464a61119aafee	SegmentId: 658e0a0a6d776627	Sampled: true	
+
+START RequestId: 10ba8a86-5af2-4da3-b9c8-48ce854a7b77 Version: $LATEST
+2022/09/01 13:37:19 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039444537,
+	"requestId": "10ba8a86-5af2-4da3-b9c8-48ce854a7b77",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b58f-6ab1c464284ec4a752c08018;Parent=4472e6394212094d;Sampled=1"
+	}
+}
+2022/09/01 13:37:19 [collector] Waiting for event...
+END RequestId: 10ba8a86-5af2-4da3-b9c8-48ce854a7b77
+REPORT RequestId: 10ba8a86-5af2-4da3-b9c8-48ce854a7b77	Duration: 24.12 ms	Billed Duration: 25 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b58f-6ab1c464284ec4a752c08018	SegmentId: 4472e6394212094d	Sampled: true	
+
+START RequestId: f016e12b-e2e6-4d0f-9d53-6fecfea8d9fd Version: $LATEST
+2022/09/01 13:37:22 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039447079,
+	"requestId": "f016e12b-e2e6-4d0f-9d53-6fecfea8d9fd",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b592-668a413b4fb701be61c9ea4a;Parent=51f0289812ff694c;Sampled=1"
+	}
+}
+2022/09/01 13:37:22 [collector] Waiting for event...
+END RequestId: f016e12b-e2e6-4d0f-9d53-6fecfea8d9fd
+REPORT RequestId: f016e12b-e2e6-4d0f-9d53-6fecfea8d9fd	Duration: 42.68 ms	Billed Duration: 43 ms	Memory Size: 256 MB	Max Memory Used: 156 MB	
+XRAY TraceId: 1-6310b592-668a413b4fb701be61c9ea4a	SegmentId: 51f0289812ff694c	Sampled: true	
+
+START RequestId: 129ca55e-aba7-40dd-9f4b-c4f61278dbd7 Version: $LATEST
+2022/09/01 13:37:24 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039449671,
+	"requestId": "129ca55e-aba7-40dd-9f4b-c4f61278dbd7",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b594-291e215d0dc4c9a11a17c3c2;Parent=4b5457da508be5d7;Sampled=1"
+	}
+}
+2022/09/01 13:37:24 [collector] Waiting for event...
+END RequestId: 129ca55e-aba7-40dd-9f4b-c4f61278dbd7
+REPORT RequestId: 129ca55e-aba7-40dd-9f4b-c4f61278dbd7	Duration: 71.03 ms	Billed Duration: 72 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b594-291e215d0dc4c9a11a17c3c2	SegmentId: 4b5457da508be5d7	Sampled: true	
+
+START RequestId: 83e785da-0b82-42ba-8be8-c2bbe9e5737b Version: $LATEST
+2022/09/01 13:37:27 [collector] Received event: {
+	"eventType": "INVOKE",
+	"deadlineMs": 1662039452258,
+	"requestId": "83e785da-0b82-42ba-8be8-c2bbe9e5737b",
+	"invokedFunctionArn": "arn:aws:lambda:us-east-1:793180302321:function:4_dynamodb_read_otel",
+	"tracing": {
+		"type": "X-Amzn-Trace-Id",
+		"value": "Root=1-6310b597-6abc685237767b91751acefb;Parent=2e9c80ae5cd591c5;Sampled=1"
+	}
+}
+2022/09/01 13:37:27 [collector] Waiting for event...
+END RequestId: 83e785da-0b82-42ba-8be8-c2bbe9e5737b
+REPORT RequestId: 83e785da-0b82-42ba-8be8-c2bbe9e5737b	Duration: 43.66 ms	Billed Duration: 44 ms	Memory Size: 256 MB	Max Memory Used: 157 MB	
+XRAY TraceId: 1-6310b597-6abc685237767b91751acefb	SegmentId: 2e9c80ae5cd591c5	Sampled: true	
